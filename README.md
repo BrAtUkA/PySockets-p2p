@@ -5,6 +5,7 @@ A simple Python Sockets p2p connection system (designed for Rainbow Six mods)
 To Start The Server, Use The Following command:
 ```
 >>server.py <ip> <port>
+--
   Example: >>server.py localhost 1234
 
 #------- | Example Output | ------- (Following Output is When a Host Joins The Server...)
@@ -28,6 +29,7 @@ To Start The Server, Use The Following command:
 Hosts Can Join this Server by Running The Following Command:
 ```
 >>host.py <Server_ip> <Server_port> <Host_username>
+--
   Example: >>host.py localhost 1234 My_Usernmae
 
 #------- | Example Output | ------- 
@@ -44,6 +46,7 @@ Running this command will download and run [Ngrok](https://ngrok.com/), Once The
 Clients can fetch addresses from the server by using this command:
 ```
 >>join.py <Server_ip> <Server_port>
+--
   Example: >>join.py localhost 1234
 
 #------- | Example Output | ------- (Following Output is when a Host is online...)
