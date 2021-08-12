@@ -1,5 +1,6 @@
 # PySockets
-A simple Python Sockets p2p connection system (designed for Rainbow Six mods)
+A simple Python Sockets p2p connection system made without any extra Libraries.
+tested and built on python-3.8.9
 
 ## Usage:
 # Starting The Server
