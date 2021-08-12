@@ -6,8 +6,8 @@ tested and built on python-3.8.9
  - Python-3.8=< (Recommended)
  - [Ngrok](https://ngrok.com/) Account (ForHosts)
 
-##Setup:
-Hosts Will have to create a [Ngrok](https://ngrok.com/) Account (So That They can accept connections from clients, without port-forwarding)
+## Setup:
+Hosts Will have to create a [Ngrok](https://ngrok.com/) Account (So That They can accept connections from clients, without _port-forwarding_)
 
 1. Goto [Ngrok Signup](https://dashboard.ngrok.com/signup) and Create an Account.
 2. Then Download The [Ngrok Exe](https://dashboard.ngrok.com/get-started/setup) From the Website.
