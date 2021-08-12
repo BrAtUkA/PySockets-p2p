@@ -49,7 +49,7 @@ To Start The Server, Use The Following command:
  Current Clients:  0
 
 ```
-This will Bind the Server To The Given ip and port, This Will Listen For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
+This will Bind the Server To The Given ip and port, And this will start listening For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
 
 ## Hosting and Adding Address to The Server:
 Hosts Can add thier address to the Server by Running The Following Command:
