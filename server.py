@@ -1,9 +1,10 @@
-#from os import system as cmd
-from time import time, sleep
+# from os import system as cmd
+from time import sleep
 import threading
 import socket
 import json
 import sys
+
 
 def receive_msg(sockt:socket.socket, Len:bool):
     full_msg = ""
@@ -99,6 +100,8 @@ def update_title():
     global hosts
     #cmd(f'title Server : Total Client Connects: {len(clntconns)} : Online Hosts: {len(hosts)}')
 
+# ---- main -----
+
 HEADERSIZE = 20
 
 try:
@@ -128,11 +131,11 @@ while True:
     cmnd = cmnds[0]
     host = cmnds[1]
 
-    if cmnd == "add_h":
+    if cmnd == "add_h" and len(cmnds)==4:
         hostaddr = cmnds[2]
         hostport = cmnds[3]
         add_host(host, hostaddr, hostport, hostip[0], conn)
-    elif cmnd == "add_c":
+    elif cmnd == "add_c" and len(cmnds)==2:
         add_client(conn)
     else:
         conn.close()
