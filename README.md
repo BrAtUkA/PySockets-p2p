@@ -1,5 +1,5 @@
-# PySockets
-A simple Python Sockets p2p connection system made without any extra Libraries.
+# PySockets p2p System
+A simple Python Sockets p2p network system made without any extra Libraries.
 tested and built on python-3.8.9
 
 ## Requirements:
@@ -22,9 +22,9 @@ C:\Users\<username>ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprf
 Authtoken saved to configuration file: C:\Users\<username>/.ngrok2/ngrok.yml
 ```
 
-## Usage:
+# Usage:
 
-# Starting The Server
+## Starting The Server
 To Start The Server, Use The Following command:
 ```
 >>server.py <ip> <port>
@@ -50,7 +50,7 @@ To Start The Server, Use The Following command:
 ```
 This will Bind the Server To The Given ip and port, This Will Listen For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
 
-# Hosting and Adding Address to The Server:
+## Hosting and Adding Address to The Server:
 Hosts Can add thier address to the Server by Running The Following Command:
 ```
 >>host.py <Server_ip> <Server_port> <Host_username>
@@ -68,7 +68,7 @@ Hosts Can add thier address to the Server by Running The Following Command:
 
 Running this command will download and run [Ngrok](https://ngrok.com/), Once The Ngrok tunnel is online the Host will send its _ngrok-address and port_ along with the user-name to the **Server** this data will be stored in a Dictionary in the Server.
 
-# Fetching Online Hosts:
+## Fetching Online Hosts:
 Clients can fetch addresses from the server by using this command:
 ```
 >>join.py <Server_ip> <Server_port>
