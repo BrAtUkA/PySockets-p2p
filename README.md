@@ -12,7 +12,7 @@ Hosts Will have to create a [Ngrok](https://ngrok.com/) Account (So That They ca
 
 1. Goto [Ngrok Signup](https://dashboard.ngrok.com/signup) and Create an Account.
 2. Then Download The [Ngrok Exe](https://dashboard.ngrok.com/get-started/setup) From the Website.
-3. Then in the dashboard goto [Your Authtoken](https://dashboard.ngrok.com/get-started/your-authtokenv) and Run The **auth** Command in the same directory as the exe:
+3. Then in the dashboard goto [Your Authtoken](https://dashboard.ngrok.com/get-started/your-authtoken) and Run The **auth** Command in the same directory as the exe:
     Example:
 ```
 ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprfP225
