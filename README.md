@@ -2,7 +2,28 @@
 A simple Python Sockets p2p connection system made without any extra Libraries.
 tested and built on python-3.8.9
 
+## Requirements:
+ - Python-3.8=< (Recommended)
+ - [Ngrok](https://ngrok.com/) Account (ForHosts)
+
+##Setup:
+Hosts Will have to create a [Ngrok](https://ngrok.com/) Account (So That They can accept connections from clients, without port-forwarding)
+
+1. Goto [Ngrok Signup](https://dashboard.ngrok.com/signup) and Create an Account.
+2. Then Download The [Ngrok Exe](https://dashboard.ngrok.com/get-started/setup) From the Website.
+3. Then in the dashboard goto [Your Authtoken](https://dashboard.ngrok.com/get-started/your-authtokenv) and Run The **auth** Command in the same directory as the exe:
+    Example:
+```
+ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprfP225
+--
+
+#------ | Successfull Authentication Output | ------
+C:\Users\<username>ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprfP225
+Authtoken saved to configuration file: C:\Users\<username>/.ngrok2/ngrok.yml
+```
+
 ## Usage:
+
 # Starting The Server
 To Start The Server, Use The Following command:
 ```
@@ -27,6 +48,8 @@ To Start The Server, Use The Following command:
  Current Clients:  0
 
 ```
+This will Bind the Server To The Given ip and port, This Will Listen For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
+
 # Hosting and Adding Address to The Server:
 Hosts Can add thier address to the Server by Running The Following Command:
 ```
