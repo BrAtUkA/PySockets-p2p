@@ -89,3 +89,5 @@ Clients can fetch addresses from the server by using this command:
 Clients will be returned the online hosts-Dictionary and will update it as soon as a host joins or leaves...
 
 
+# TODO:
+ - Authenticate Hosts
