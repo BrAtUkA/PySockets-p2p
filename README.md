@@ -8,7 +8,7 @@ tested and built on python-3.8.9
 
 ## Setup:
 Hosts Will have to create a [Ngrok](https://ngrok.com/) Account (So That They can accept connections from clients, without _port-forwarding_)
- - Alternatively You can also use the **ngrok account** to deploy the server without _port-forwarding_, Note that only **one tunnel** can be created with a **_free account_**.
+ - Alternatively You can also use the **ngrok account** to deploy the server without _port-forwarding_, Note that only **one tunnel** can be created at a time with a **_free account_**.
 
 1. Goto [Ngrok Signup](https://dashboard.ngrok.com/signup) and Create an Account.
 2. Then Download The [Ngrok Exe](https://dashboard.ngrok.com/get-started/setup) From the Website.
