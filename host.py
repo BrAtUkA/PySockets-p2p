@@ -42,11 +42,13 @@ try:
     s_ip = sys.argv[1]
     s_port = int(sys.argv[2])
     username = sys.argv[3]
+    password = sys.argv[4]
 except:
-    print("\n [!] Script usage : host.py <Server_ip> <Server_port> <username>\n      Example >> host.py localhost 1234 BrAtUkA\n")
+    print("\n [!] Script usage : host.py <Server_ip> <Server_port> <username> <password>\n      Example >> host.py localhost 1234 BrAtUkA P@ssw0rd\n")
     s_ip = "13.76.177.227"
     s_port = 80
     username = "BrAtUkA"
+    password = "P@ssw0rd"
 
 
 ips = run_ngrok()
@@ -91,7 +93,7 @@ def send_msg(msg, sockt):
     #print(f" Sending... '{msg}'") # debug purpose
     sockt.send(bytes(msg, 'utf-8'))
 
-data_string = f"add_h;{username};{ip};{port}"
+data_string = f"add_h;{username};{password};{ip};{port}"
 send_msg(data_string, server)
 
 print(" [+] Waiting for connections...")
