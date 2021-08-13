@@ -83,6 +83,8 @@ def rem_host(host, hostip):
     hostconns.remove(hostip)
     broadcast_hosts_to_clients()
 
+def verify_host():
+    pass # TODO
 
 def add_client(conn:socket.socket):
     global hosts
@@ -131,9 +133,11 @@ while True:
     cmnd = cmnds[0]
     host = cmnds[1]
 
-    if cmnd == "add_h" and len(cmnds)==4:
-        hostaddr = cmnds[2]
-        hostport = cmnds[3]
+    if cmnd == "add_h" and len(cmnds)==5:
+        hostpass = cmnds[2]
+        hostaddr = cmnds[3]
+        hostport = cmnds[4]
+        verify_host()
         add_host(host, hostaddr, hostport, hostip[0], conn)
     elif cmnd == "add_c" and len(cmnds)==2:
         add_client(conn)
