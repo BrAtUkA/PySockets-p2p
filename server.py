@@ -83,9 +83,17 @@ def rem_host(host, hostip):
     hostconns.remove(hostip)
     broadcast_hosts_to_clients()
 
-def verify_host():
-    print(" Add Veification Here!")
-    pass # TODO
+def valid_host(host, hostpass):
+    validHosts = open("whitelist.json", "r")
+    validHosts = json.loads(validHosts.read())
+    try:
+        if validHosts[host] == hostpass:
+            return True
+        else:
+            raise Exception
+    except:
+        return False
+    
 
 def add_client(conn:socket.socket):
     global hosts
@@ -138,8 +146,12 @@ while True:
         hostpass = cmnds[2]
         hostaddr = cmnds[3]
         hostport = cmnds[4]
-        verify_host()
-        add_host(host, hostaddr, hostport, hostip[0], conn)
+        if valid_host(host, hostpass):
+            add_host(host, hostaddr, hostport, hostip[0], conn)
+        else:
+            print(" Unauthorized Host Connection attempt, Rejected...")
+            conn.close()
+            
     elif cmnd == "add_c" and len(cmnds)==2:
         add_client(conn)
     else:

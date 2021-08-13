@@ -70,9 +70,11 @@ def receive_msg(sockt:socket.socket, Len:bool):
     new_msg = True
     while True:
         msg = sockt.recv(24)
-        if msg == "":
+
+        if len(msg) <= 5:
             sockt.close()
             return 
+
         if new_msg:
             if Len:
                 print(f"\n Upcoming Message Length: {int(msg[:HEADERSIZE])}")
@@ -98,8 +100,11 @@ send_msg(data_string, server)
 
 print(" [+] Waiting for connections...")
 while True:
-    x = receive_msg(server, False)
-    if x == "Alive?":
+    try:
+        wake = receive_msg(server, True)
+    except:
+        break
+    if wake == "Alive?":
         send_msg("I am Alive!",server)
 
 cmd('pause')
