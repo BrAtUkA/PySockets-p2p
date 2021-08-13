@@ -54,9 +54,9 @@ This will Bind the Server To The Given ip and port, And this will start listenin
 ## Hosting and Adding Address to The Server:
 Hosts Can add thier address to the Server by Running The Following Command:
 ```
->>host.py <Server_ip> <Server_port> <Host_username>
+>>host.py <Server_ip> <Server_port> <Host_username> <Host_password>
 --
-  Example: >>host.py localhost 1234 My_Usernmae
+  Example: >>host.py localhost 1234 My_Usernmae P@ssw0rd
 
 #------- | Example Output | ------- 
  [+] Connected To Server >> 'localhost:1234'
