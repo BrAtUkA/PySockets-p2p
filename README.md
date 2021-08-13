@@ -90,5 +90,5 @@ Clients will be returned the online hosts-Dictionary and will update it as soon 
 
 
 # To-do:
- - Authenticate Hosts (via Whitelist)
+ - Authenticate Hosts (via Whitelist) [Done!, in testing]
  - Create a Host-Client Connection after the Client Fetches the Address of the specified host.
