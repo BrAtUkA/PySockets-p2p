@@ -1,6 +1,6 @@
 # from os import system as cmd
 from os import close
-from time import sleep
+from time import sleep, time
 import threading
 import socket
 import json
@@ -84,18 +84,47 @@ def rem_host(host, hostip):
     hostconns.remove(hostip)
     broadcast_hosts_to_clients()
 
-def valid_host(host, hostpass):
+def valid_host(host, hostpass, hostip:str):
+    global Hconn_attempts
     with open("whitelist.json", "r") as validHosts:
         validHosts = json.loads(validHosts.read())
 
     try:
         if validHosts[host] == hostpass:
+            Hconn_attempts[hostip] = 0
             return True
         else:
             raise Exception
     except:
         return False
     
+def track_Hconns(hostip:str):
+    global Hconn_attempts
+    try:
+        if Hconn_attempts[hostip] >= 10:
+            Bl_file = open("blacklist.json", "r")
+            Bl = json.loads(Bl_file.read())
+            Bl[str(hostip)] = time()
+            Bl_file.close()
+            Bl_file = open("blacklist.json", "w")
+            Bl_file.write(json.dumps(Bl))
+            Bl_file.close()
+
+        else:
+            Hconn_attempts[hostip] += 1 
+    except Exception as e:
+        Hconn_attempts[hostip] = 1
+
+def reject_blHost(hostip:str):
+    global Hconn_attempts
+    with open("blacklist.json", "r") as Bl:
+        Bl = json.loads(Bl.read())
+    # if time() - Bl[hostip] <= 120:
+    #     Hconn_attempts[hostip] = 0    # Todo; Remove blacklist flag if 2 hrs have passed ....
+        
+    if hostip in Bl:
+        return True
+
 
 def add_client(conn:socket.socket):
     global hosts
@@ -134,24 +163,38 @@ server.listen(512)
 hosts = dict()
 hostconns = set()
 clntconns = list()
+Hconn_attempts = dict()
 
 while True:
     conn, hostip = server.accept()
     print(f"\n Connection from {hostip} has been established!")
-    x = receive_msg(conn, True)
-    print(f" Recieved: '{x}'")
-    cmnds = x.split(";")
+    try:
+        x = receive_msg(conn, True)
+        print(f" Recieved: '{x}'")
+        cmnds = x.split(";")
+    except:
+        conn.close()
+        continue
+
     cmnd = cmnds[0]
     host = cmnds[1]
 
     if cmnd == "add_h" and len(cmnds)==5:
+        if reject_blHost(hostip[0]):
+            print(" Blacklisted Request Recieved, Rejected...")
+            conn.close()
+            continue
+
         hostpass = cmnds[2]
         hostaddr = cmnds[3]
         hostport = cmnds[4]
-        if valid_host(host, hostpass):
+        if valid_host(host, hostpass, hostip[0]):
             add_host(host, hostaddr, hostport, hostip[0], conn)
         else:
+            track_Hconns(hostip[0])
+
             print(" Unauthorized Host Connection attempt, Rejected...")
+            print(f" Total Rejected : {Hconn_attempts}")
             conn.close()
 
     elif cmnd == "add_c" and len(cmnds)==2:
