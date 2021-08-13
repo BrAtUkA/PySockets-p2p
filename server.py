@@ -84,6 +84,7 @@ def rem_host(host, hostip):
     broadcast_hosts_to_clients()
 
 def verify_host():
+    print(" Add Veification Here!")
     pass # TODO
 
 def add_client(conn:socket.socket):
