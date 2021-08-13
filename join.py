@@ -26,8 +26,11 @@ def receive_msg(sockt:socket.socket, Len:bool):
     new_msg = True
     while True:
         msg = sockt.recv(24)
-        if msg == "":
-            raise Exception("Error ??? No Response.")
+
+        if len(msg) <= 5:
+            sockt.close()
+            return
+        
         if new_msg:
             if Len:
                 print(f"\n Upcoming Message Length: {int(msg[:HEADERSIZE])}")
@@ -36,7 +39,7 @@ def receive_msg(sockt:socket.socket, Len:bool):
         
         full_msg += msg.decode("utf-8")
 
-        if len(full_msg) - HEADERSIZE == msglen:  # Check if the msg is completley sent.. using the header
+        if len(full_msg) - HEADERSIZE == msglen:
             break
 
     full_msg = json.loads(full_msg[HEADERSIZE:])
@@ -51,6 +54,9 @@ def send_msg(msg, sockt:socket.socket):
 send_msg("add_c;null", server)
 
 while True:
-    hosts = receive_msg(server, True)
+    try:
+        hosts = receive_msg(server, True)
+    except:
+        break
     print(" Message:", hosts)
     print("\n\n")
