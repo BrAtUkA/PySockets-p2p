@@ -26,10 +26,6 @@ def receive_msg(sockt:socket.socket, Len:bool):
     new_msg = True
     while True:
         msg = sockt.recv(24)
-
-        if len(msg) <= 5:
-            sockt.close()
-            return
         
         if new_msg:
             if Len:
