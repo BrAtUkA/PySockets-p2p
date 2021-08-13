@@ -1,4 +1,5 @@
 # from os import system as cmd
+from os import close
 from time import sleep
 import threading
 import socket
@@ -84,8 +85,9 @@ def rem_host(host, hostip):
     broadcast_hosts_to_clients()
 
 def valid_host(host, hostpass):
-    validHosts = open("whitelist.json", "r")
-    validHosts = json.loads(validHosts.read())
+    with open("whitelist.json", "r") as validHosts:
+        validHosts = json.loads(validHosts.read())
+
     try:
         if validHosts[host] == hostpass:
             return True
@@ -151,7 +153,7 @@ while True:
         else:
             print(" Unauthorized Host Connection attempt, Rejected...")
             conn.close()
-            
+
     elif cmnd == "add_c" and len(cmnds)==2:
         add_client(conn)
     else:
