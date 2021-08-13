@@ -99,7 +99,7 @@ while True:
     try:
         wake = receive_msg(server, False)
     except Exception as e:
-        print(e)
+        print(" [!] Rejected Host Request By Server...")
         break
     if wake == "Alive?":
         send_msg("I am Alive!",server)
