@@ -98,14 +98,16 @@ def valid_host(host, hostpass, hostip:str):
     except:
         return False
     
+# Black Listing / Removing...
 def track_Hconns(hostip:str):
     global Hconn_attempts
     try:
-        if Hconn_attempts[hostip] >= 10:
+        if Hconn_attempts[hostip] >= MAXINVLREQ-1:
             Bl_file = open("blacklist.json", "r")
             Bl = json.loads(Bl_file.read())
             Bl[str(hostip)] = time()
             Bl_file.close()
+
             Bl_file = open("blacklist.json", "w")
             Bl_file.write(json.dumps(Bl))
             Bl_file.close()
@@ -116,14 +118,37 @@ def track_Hconns(hostip:str):
         Hconn_attempts[hostip] = 1
 
 def reject_blHost(hostip:str):
+    refresh_blacklist(hostip)
+    
     global Hconn_attempts
+
     with open("blacklist.json", "r") as Bl:
         Bl = json.loads(Bl.read())
-    # if time() - Bl[hostip] <= 120:
-    #     Hconn_attempts[hostip] = 0    # Todo; Remove blacklist flag if 2 hrs have passed ....
-        
+
     if hostip in Bl:
+        print(" Blacklisted Request Recieved, Rejected...")
         return True
+    else:
+        return False
+
+def refresh_blacklist(hostip):
+    Bl_file = open("blacklist.json", "r")
+    Bl = json.loads(Bl_file.read())
+    Bl:dict
+    Bl_file.close()
+
+    try:
+        if time() - Bl[hostip] >= BLLTIMEOUT:
+            Hconn_attempts[hostip] = 0   
+            Bl.pop(hostip, None)
+            Bl_file = open("blacklist.json", "w")
+            Bl_file.write(json.dumps(Bl))
+            Bl_file.close()
+            print(f" Removed {hostip} From Blacklist...")
+        else:
+            print(f" Time Remaining For {hostip} = {round((BLLTIMEOUT-(time() - Bl[hostip]))/60, 3)} mins..")
+    except:
+        pass
 
 
 def add_client(conn:socket.socket):
@@ -145,6 +170,8 @@ def update_title():
 # ---- main -----
 
 HEADERSIZE = 20
+BLLTIMEOUT = 3600  # seconds
+MAXINVLREQ = 10
 
 try:
     s_ip = sys.argv[1]
@@ -181,7 +208,6 @@ while True:
 
     if cmnd == "add_h" and len(cmnds)==5:
         if reject_blHost(hostip[0]):
-            print(" Blacklisted Request Recieved, Rejected...")
             conn.close()
             continue
 
