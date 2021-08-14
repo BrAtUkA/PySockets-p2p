@@ -1,7 +1,7 @@
 CMD = False
 import os
 if os.name == 'nt':
-    from os import system as cmd
+    print("\n [OS : Windows]")
     CMD = True
     
 from time import sleep, time
@@ -10,6 +10,11 @@ import socket
 import json
 import sys
 
+def update_title():
+    global clntconns
+    global hosts
+    if CMD:
+        os.system(f'title Server:                                                                                                   Total Client Connects: {len(clntconns)}   :   Online Hosts: {len(hosts)}')
 
 def receive_msg(sockt:socket.socket, Len:bool):
     full_msg = ""
@@ -58,7 +63,7 @@ def start_wake_thread(host, hostip, conn):
 
 
 def broadcast_hosts_to_clients():
-    print(" Current Hosts: ",len(hosts),"\n")
+    print(" Current Hosts: ",len(hosts))
     for clntconn in clntconns:
         clntconn:socket.socket
         try:
@@ -84,6 +89,7 @@ def rem_host(host, hostip):
     global hosts
     hosts.pop(host, None)
     hostconns.remove(hostip)
+    update_title()
     broadcast_hosts_to_clients()
 
 def valid_host(host, hostpass, hostip:str):
@@ -110,7 +116,7 @@ def add_client(conn:socket.socket):
         conn.close()
     else:
         clntconns.append(conn)
-    print(" Current Clients: ",len(clntconns),"\n")
+    print(" Current Clients: ",len(clntconns))
 
     
 # Black Listing / Removing...
@@ -165,13 +171,6 @@ def refresh_blacklist(hostip):
     except:
         pass
 
-
-def update_title():
-    global clntconns
-    global hosts
-    if CMD:
-        cmd(f'title Server : Total Client Connects: {len(clntconns)} : Online Hosts: {len(hosts)}')
-
 # ---- main -----
 
 HEADERSIZE = 20
@@ -198,8 +197,9 @@ clntconns = list()
 Hconn_attempts = dict()
 
 while True:
+    update_title()
     conn, hostip = server.accept()
-    print(f"\n Connection from {hostip} has been established!")
+    print(f"\n\n Connection from {hostip} has been established!")
     try:
         x = receive_msg(conn, True)
         print(f" Recieved: '{x}'")
@@ -210,7 +210,7 @@ while True:
 
     cmnd = cmnds[0]
     host = cmnds[1]
-
+    
     if cmnd == "add_h" and len(cmnds)==5:
         if reject_blHost(hostip[0]):
             conn.close()
@@ -225,7 +225,7 @@ while True:
             track_Hconns(hostip[0])
 
             print(" Unauthorized Host Connection attempt, Rejected...")
-            print(f" Total Rejected : {Hconn_attempts[hostip]}")
+            print(f" Total Rejected : {Hconn_attempts[hostip[0]]}")
             conn.close()
 
     elif cmnd == "add_c" and len(cmnds)==2:
