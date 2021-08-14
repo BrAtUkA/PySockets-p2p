@@ -10,7 +10,7 @@ import os
 class ngrok(threading.Thread):
     def run(self):
         appDat = os.getenv("APPDATA")
-        cmd(f"cd /d {appDat}\\R6Moded && ngrok tcp -region=eu 1234>nul")
+        cmd(f"cd /d {appDat}\\R6Moded && ngrok tcp -region=eu 5096>nul")
         pass
 
 ngrok_pr = ngrok()
@@ -111,13 +111,15 @@ t1 = threading.Thread(target=wake)
 t1.start()
 
 host = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host.bind(("localhost", int(port)))
+host.bind(("localhost", 5096))
 host.listen(11)
 
 print(" [+] Waiting for connections...")
 
 while True:
     client, clntaddr = host.accept()
+    print(clntaddr)
+    send_msg("Hey?", client)
     # TODO: Figure out a way to specify Mods/To be synced values... ; TODO2: Add Method to connect and comunicate with clients
 
 

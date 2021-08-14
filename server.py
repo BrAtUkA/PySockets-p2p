@@ -144,7 +144,6 @@ def reject_blHost(hostip:str):
     refresh_blacklist(hostip)
     
     global Hconn_attempts
-
     with open("blacklist.json", "r") as Bl:
         Bl = json.loads(Bl.read())
 
@@ -159,7 +158,6 @@ def refresh_blacklist(hostip):
     Bl = json.loads(Bl_file.read())
     Bl:dict
     Bl_file.close()
-
     try:
         if time() - Bl[hostip] >= BLLTIMEOUT:
             Hconn_attempts[hostip] = 0   
