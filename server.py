@@ -3,7 +3,9 @@ import os
 if os.name == 'nt':
     print("\n [OS : Windows]")
     CMD = True
-    
+elif os.name == 'posix':
+    print("\n [OS : Linux]")
+
 from time import sleep, time
 import threading
 import socket
@@ -63,7 +65,7 @@ def start_wake_thread(host, hostip, conn):
 
 
 def broadcast_hosts_to_clients():
-    print(" Current Hosts: ",len(hosts))
+    print("\n Current Hosts: ",len(hosts))
     for clntconn in clntconns:
         clntconn:socket.socket
         try:
@@ -71,7 +73,7 @@ def broadcast_hosts_to_clients():
         except:
             clntconn.close()
             clntconns.remove(clntconn)
-    print(" Current Clients: ",len(clntconns),"\n")
+    print(" Current Clients: ",len(clntconns))
 
 
 def add_host(host, hostaddr, hostport, hostip, conn):
@@ -171,6 +173,8 @@ def refresh_blacklist(hostip):
     except:
         pass
 
+
+
 # ---- main -----
 
 HEADERSIZE = 20
@@ -199,7 +203,7 @@ Hconn_attempts = dict()
 while True:
     update_title()
     conn, hostip = server.accept()
-    print(f"\n\n Connection from {hostip} has been established!")
+    print(f"\n\n >> Connection from {hostip} has been established!")
     try:
         x = receive_msg(conn, True)
         print(f" Recieved: '{x}'")
