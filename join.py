@@ -1,5 +1,6 @@
 from os import system as cmd
 from time import sleep
+import threading
 import socket
 import json
 import sys
@@ -49,10 +50,21 @@ def send_msg(msg, sockt:socket.socket):
 
 send_msg("add_c;null", server)
 
+def Update_hostList():
+    global hosts
+    while True:
+        try:
+            hosts = receive_msg(server, True)
+        except:
+            break
+        print(f" Hosts = {hosts}\n\n")
+
+    print(" [!] Unexpected Error... (Server Connection Closed)")
+    exit()
+
+t1 = threading.Thread(target=Update_hostList,)
+t1.start()
+
 while True:
-    try:
-        hosts = receive_msg(server, True)
-    except:
-        break
-    print(" Message:", hosts)
-    print("\n\n")
+    pass   # TODO: Figure out a way to specify a host... ; TODO2: Add Method to connect and comunicate with specified host
+

@@ -94,15 +94,32 @@ def send_msg(msg, sockt):
 data_string = f"add_h;{username};{password};{ip};{port}"
 send_msg(data_string, server)
 
-print(" [+] Waiting for connections...")
-while True:
-    try:
-        wake = receive_msg(server, False)
-    except Exception as e:
-        print(" [!] Rejected Host Request By Server...")
-        break
-    if wake == "Alive?":
-        send_msg("I am Alive!",server)
 
-cmd('pause')
+def wake():
+    while True:
+        try:
+            wake = receive_msg(server, False)
+        except Exception as e:
+            print(" [!] Rejected Host Request By Server...")
+            break
+
+        if wake == "Alive?":
+            send_msg("I am Alive!",server)
+    exit()
+
+t1 = threading.Thread(target=wake)
+t1.start()
+
+host = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+host.bind(("localhost", int(port)))
+host.listen(11)
+
+print(" [+] Waiting for connections...")
+
+while True:
+    client, clntaddr = host.accept()
+    # TODO: Figure out a way to specify Mods/To be synced values... ; TODO2: Add Method to connect and comunicate with clients
+
+
+cmd('pause>nul')
 
