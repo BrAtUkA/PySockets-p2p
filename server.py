@@ -27,7 +27,6 @@ def receive_msg(sockt:socket.socket, Len:bool):
     full_msg = str(json.loads(full_msg[HEADERSIZE:]))
     return full_msg
 
-
 def send_msg(msg, sockt:socket.socket):
     msg = json.dumps(msg)
     msg = f'{len(msg):>0{HEADERSIZE}d}' + msg
@@ -48,11 +47,11 @@ def check_host(host, hostip, conn):
             print(f" Host '{host}' Has Ended Game...")
             return
 
-
 def start_wake_thread(host, hostip, conn):
     print(f" Started Wake Thread for '{host}'....")
     t1 = threading.Thread(target=check_host, args=(host, hostip, conn))
     t1.start()
+
 
 def broadcast_hosts_to_clients():
     print(" Current Hosts: ",hosts,"\n")
@@ -77,7 +76,6 @@ def add_host(host, hostaddr, hostport, hostip, conn):
         broadcast_hosts_to_clients()
         return True
 
-
 def rem_host(host, hostip):
     global hosts
     hosts.pop(host, None)
@@ -97,6 +95,19 @@ def valid_host(host, hostpass, hostip:str):
             raise Exception
     except:
         return False
+
+
+
+def add_client(conn:socket.socket):
+    global hosts
+    print(" Current Clients: ",len(clntconns),"\n")
+    try:
+        send_msg(hosts, conn)
+    except:
+        conn.close()
+    else:
+        clntconns.append(conn)
+
     
 # Black Listing / Removing...
 def track_Hconns(hostip:str):
@@ -149,17 +160,6 @@ def refresh_blacklist(hostip):
             print(f" Time Remaining For {hostip} = {round((BLLTIMEOUT-(time() - Bl[hostip]))/60, 3)} mins..")
     except:
         pass
-
-
-def add_client(conn:socket.socket):
-    global hosts
-    print(" Current Clients: ",len(clntconns),"\n")
-    try:
-        send_msg(hosts, conn)
-    except:
-        conn.close()
-    else:
-        clntconns.append(conn)
 
 
 def update_title():
