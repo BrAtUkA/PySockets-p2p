@@ -1,5 +1,9 @@
-# from os import system as cmd
-from os import close
+CMD = False
+import os
+if os.name == 'nt':
+    from os import system as cmd
+    CMD = True
+    
 from time import sleep, time
 import threading
 import socket
@@ -54,7 +58,7 @@ def start_wake_thread(host, hostip, conn):
 
 
 def broadcast_hosts_to_clients():
-    print(" Current Hosts: ",hosts,"\n")
+    print(" Current Hosts: ",len(hosts),"\n")
     for clntconn in clntconns:
         clntconn:socket.socket
         try:
@@ -100,13 +104,13 @@ def valid_host(host, hostpass, hostip:str):
 
 def add_client(conn:socket.socket):
     global hosts
-    print(" Current Clients: ",len(clntconns),"\n")
     try:
         send_msg(hosts, conn)
     except:
         conn.close()
     else:
         clntconns.append(conn)
+    print(" Current Clients: ",len(clntconns),"\n")
 
     
 # Black Listing / Removing...
@@ -157,7 +161,7 @@ def refresh_blacklist(hostip):
             Bl_file.close()
             print(f" Removed {hostip} From Blacklist...")
         else:
-            print(f" Time Remaining For {hostip} = {round((BLLTIMEOUT-(time() - Bl[hostip]))/60, 3)} mins..")
+            print(f" Time Remaining For {hostip} = {round((BLLTIMEOUT-(time() - Bl[hostip]))/60, 2)} mins..")
     except:
         pass
 
@@ -165,7 +169,8 @@ def refresh_blacklist(hostip):
 def update_title():
     global clntconns
     global hosts
-    #cmd(f'title Server : Total Client Connects: {len(clntconns)} : Online Hosts: {len(hosts)}')
+    if CMD:
+        cmd(f'title Server : Total Client Connects: {len(clntconns)} : Online Hosts: {len(hosts)}')
 
 # ---- main -----
 
@@ -220,7 +225,7 @@ while True:
             track_Hconns(hostip[0])
 
             print(" Unauthorized Host Connection attempt, Rejected...")
-            print(f" Total Rejected : {Hconn_attempts}")
+            print(f" Total Rejected : {Hconn_attempts[hostip]}")
             conn.close()
 
     elif cmnd == "add_c" and len(cmnds)==2:
