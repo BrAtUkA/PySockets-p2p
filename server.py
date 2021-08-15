@@ -64,17 +64,20 @@ def start_wake_thread(host, hostip, conn):
     t1.start()
 
 
-def broadcast_hosts_to_clients():
-    print("\n Current Hosts: ",len(hosts))
+def broadcast_hosts_to_clients(hosts):
+    global clntconns
+    dedClnts = []
     for clntconn in clntconns:
-        clntconn:socket.socket
         try:
             send_msg(hosts, clntconn)
         except:
-            clntconn.close()
-            clntconns.remove(clntconn)
-    print(" Current Clients: ",len(clntconns))
+            dedClnts.append(clntconn)
 
+    for dedClnt in dedClnts:
+        clntconns.remove(dedClnt)
+
+    print("\n Current Hosts: ",len(hosts))
+    print(" Current Clients: ",len(clntconns))
 
 def add_host(host, hostaddr, hostport, hostip, conn):
     global hosts
@@ -84,7 +87,7 @@ def add_host(host, hostaddr, hostport, hostip, conn):
         hostconns.add(hostip)
         hosts[host] = (hostaddr, hostport)
         start_wake_thread(host, hostip, conn)
-        broadcast_hosts_to_clients()
+        broadcast_hosts_to_clients(hosts)
         return True
 
 def rem_host(host, hostip):
@@ -92,7 +95,8 @@ def rem_host(host, hostip):
     hosts.pop(host, None)
     hostconns.remove(hostip)
     update_title()
-    broadcast_hosts_to_clients()
+    broadcast_hosts_to_clients(hosts)
+
 
 def valid_host(host, hostpass, hostip:str):
     global Hconn_attempts
@@ -118,6 +122,7 @@ def add_client(conn:socket.socket):
         conn.close()
     else:
         clntconns.append(conn)
+        print(f" Added Client {str(conn).split('raddr')[1]}")
     print(" Current Clients: ",len(clntconns))
 
     
