@@ -74,6 +74,7 @@ def broadcast_hosts_to_clients(hosts):
             dedClnts.append(clntconn)
 
     for dedClnt in dedClnts:
+        dedClnt.close()
         clntconns.remove(dedClnt)
 
     print("\n Current Hosts: ",len(hosts))
