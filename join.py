@@ -34,6 +34,9 @@ HEADERSIZE = 20
 with open(f"{Dumps}\\SerDataP.json", "w") as file:
     file.write("{}")
 
+with open(f"{Dumps}\\DisV.txt", 'w') as file2:
+    file2.write("")
+
 def receive_msg(sockt:socket.socket, Len:bool):
     full_msg = ""
     new_msg = True
@@ -91,7 +94,7 @@ def watch_data():
         with open(f"{Dumps}\\SerDataP.json", "r") as file:
             data_bef = file.read()
 
-        sleep(2)
+        sleep(1)
 
         with open(f"{Dumps}\\SerDataP.json", "r") as file:
             data_aft = file.read()
@@ -100,11 +103,48 @@ def watch_data():
             protect_Data()
 
 def protect_Data():
-    print(" [+] Updated Data...")
     global data
-    with open(f"{Dumps}\\SerDataP.json", "w") as file:
-        file.write(json.dumps(data))
+    writ = False
+    while not writ:
+        try:
+            with open(f"{Dumps}\\SerDataP.json", "w") as file:
+                file.write(json.dumps(data))
+            writ = True
+            print(" [+] Updated Data...")
+        except:
+            print(" [!] Write Data Exception! (Retrying...)")
+            sleep(0.05)
     
+def Diss():
+    while True:
+        try:
+            with open(f"{Dumps}\\DisV.txt", 'r') as DisV:
+                DisV = DisV.read()
+        except:
+            pass
+
+        if DisV == "Now":
+            DisV = ""
+            Disconnect()
+        sleep(1)
+
+def Disconnect():
+    global Connected
+    global host
+    if Connected:
+        print(f"\n >> Disconnected From '{hName}'...")
+
+        with open(f"{Dumps}\\Dis.txt","w") as dis:
+            dis.write("4O4")
+        try:
+            remove(f"{Dumps}\\DisV.txt")
+            print(" >> User Interrupt...")
+        except:
+            print(" >> Host Connection Lost...")
+            print("\n [!] Waiting For Selection...")
+
+        host.close()
+        Connected = False
 
 t1 = threading.Thread(target=watchParentProc)
 t1.start()
@@ -114,6 +154,9 @@ t2.start()
 
 t3 = threading.Thread(target=watch_data)
 t3.start()
+
+t4 = threading.Thread(target=Diss)
+t4.start()
 
 sleep(1)
 
@@ -131,10 +174,11 @@ while True:
 
             with open(f"{Dumps}\\conn.txt", "w") as conn:
                 conn.write("1")
-                
+
             Connected = True
         except Exception as e:
             pass
+
         sleep(1)
 
     while Connected:
@@ -142,13 +186,18 @@ while True:
             data = receive_msg(host, False)
             data = json.loads(data)
             #print("\n\n",data, "\n\n")
-            with open(f"{Dumps}\\SerDataP.json", "w") as file:
-                file.write(json.dumps(data))
+
+            writ = False
+            while not writ:
+                try:
+                    with open(f"{Dumps}\\SerDataP.json", "w") as file:
+                        file.write(json.dumps(data))
+                    writ = True
+                except:
+                    print(" [!] Write Data Exception! (Retrying...)")
+                    sleep(0.05)
 
         except Exception as e:
-            print(f"\n >> Disconnected From '{hName}'...")
-            print(" [!] Waiting For Selection...")
-            host.close()
-            Connected = False
+            Disconnect()
 
 
