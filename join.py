@@ -1,5 +1,5 @@
+from os import getenv, _exit, remove
 from psutil import process_iter 
-from os import getenv, _exit
 from time import sleep
 import threading
 import socket
@@ -31,6 +31,8 @@ print(f"\n [+] Connected To Server >> '{s_ip}:{s_port}'")
 print("\n=========================< Client >=========================\n")
 
 HEADERSIZE = 20
+with open(f"{Dumps}\\SerDataP.json", "w") as file:
+    file.write("{}")
 
 def receive_msg(sockt:socket.socket, Len:bool):
     full_msg = ""
@@ -61,13 +63,12 @@ def send_msg(msg, sockt:socket.socket):
 send_msg("add_c;null", server)
 
 def Recieve_hostList():
-    while ParentProc in (p.name() for p in process_iter()):
+    while True:
         try:
             hosts = receive_msg(server, True)
         except:
             break
         updateHostlist(hosts)
-
 
 def watchParentProc():
     while True:
@@ -75,7 +76,7 @@ def watchParentProc():
             print(" [!] Unexpected Error...")
             server.close()
             _exit(404)
-
+        sleep(2)
 
 def updateHostlist(Hlis):
     global hosts
@@ -85,16 +86,36 @@ def updateHostlist(Hlis):
     with open(f"{APPDATA}\\\R6_Custom_Launcher1\\R6 Custom Launcher1\\1.0.0.0\\CurrentHosts.json", "w") as data:
         data.write(json.dumps(hosts))
 
+def watch_data():
+    while True:
+        with open(f"{Dumps}\\SerDataP.json", "r") as file:
+            data_bef = file.read()
+
+        sleep(2)
+
+        with open(f"{Dumps}\\SerDataP.json", "r") as file:
+            data_aft = file.read()
+
+        if data_bef != data_aft:
+            protect_Data()
+
+def protect_Data():
+    print(" [+] Updated Data...")
+    global data
+    with open(f"{Dumps}\\SerDataP.json", "w") as file:
+        file.write(json.dumps(data))
+    
+
 t1 = threading.Thread(target=watchParentProc)
 t1.start()
 
 t2 = threading.Thread(target=Recieve_hostList)
 t2.start()
 
-
+t3 = threading.Thread(target=watch_data)
+t3.start()
 
 sleep(1)
-
 
 Connected = False
 print(" [!] Waiting For Selection...")
@@ -103,24 +124,31 @@ while True:
         try:
             with open(f"{Dumps}\\SelectedHost.txt", "r") as hName:
                 hName = hName.read()
-
-           # print((hosts[hName][0], int(hosts[hName][1])))
             host = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             host.connect((hosts[hName][0], int(hosts[hName][1])))
             print(f"\n >> Connected to {hName}...")
-            Connected = True
+            remove(f"{Dumps}\\SelectedHost.txt")
 
+            with open(f"{Dumps}\\conn.txt", "w") as conn:
+                conn.write("1")
+                
+            Connected = True
         except Exception as e:
             pass
+        sleep(1)
 
     while Connected:
         try:
-            data = receive_msg(host, True)
-        except:
+            data = receive_msg(host, False)
+            data = json.loads(data)
+            #print("\n\n",data, "\n\n")
+            with open(f"{Dumps}\\SerDataP.json", "w") as file:
+                file.write(json.dumps(data))
+
+        except Exception as e:
             print(f"\n >> Disconnected From '{hName}'...")
             print(" [!] Waiting For Selection...")
             host.close()
             Connected = False
 
-        print(" Message:",data)
 
