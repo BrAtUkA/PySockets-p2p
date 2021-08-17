@@ -1,3 +1,5 @@
+from os import getenv, makedirs, path, _exit
+from psutil import process_iter
 from os import system as cmd
 from requests import get
 from time import sleep
@@ -5,11 +7,18 @@ import threading
 import socket
 import json
 import sys
-import os
+
+APPDATA = getenv("APPDATA")
+Dumps = f"{APPDATA}\\\R6_Custom_Launcher1\\R6 Custom Launcher1\\1.0.0.0"
+ParentProc = "PyVBCustom.exe"
+
+if not ParentProc in (p.name() for p in process_iter()):
+    print("\n\n [!] Unexpected Startup (Main Window Not Found...)")
+    exit()
 
 class ngrok(threading.Thread):
     def run(self):
-        appDat = os.getenv("APPDATA")
+        appDat = getenv("APPDATA")
         cmd(f"cd /d {appDat}\\R6Moded && ngrok tcp -region=eu 5096>nul")
         pass
 
@@ -18,8 +27,8 @@ ngrok_pr.daemon = True
 
 
 def run_ngrok():
-    appDat = os.getenv("APPDATA")
-    if os.path.isfile(f"{appDat}\\R6Moded\\ngrok.exe"):
+    appDat = getenv("APPDATA")
+    if path.isfile(f"{appDat}\\R6Moded\\ngrok.exe"):
         ngrok_pr.start()
         sleep(2)
         det = get("http://localhost:4040/api/tunnels").text
@@ -28,7 +37,7 @@ def run_ngrok():
         return det
     else:
         try:
-            os.makedirs(f"{appDat}\\R6Moded")
+            makedirs(f"{appDat}\\R6Moded")
         except:
             pass
 
@@ -94,34 +103,49 @@ def send_msg(msg, sockt):
 data_string = f"add_h;{username};{password};{ip};{port}"
 send_msg(data_string, server)
 
+Rejected = False
 
 def wake():
-    while True:
+    while ParentProc in (p.name() for p in process_iter()):
         try:
             wake = receive_msg(server, False)
         except Exception as e:
-            print(" [!] Rejected Host Request By Server...")
+            reject()
             break
-
         if wake == "Alive?":
             send_msg("I am Alive!",server)
-    exit()
+    server.close()
+    print("\n [!] Unexpected Error...")
+    _exit(403)
+
+def reject():
+    global Rejected
+    print(" [!] Rejected Host Request By Server...")
+    with open(f"{Dumps}\\Validate.txt", "w") as val:
+        val.write("0")
+    
+    Rejected = True
 
 t1 = threading.Thread(target=wake)
 t1.start()
 
-host = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host.bind(("localhost", 5096))
-host.listen(11)
+sleep(1)
 
-print(" [+] Waiting for connections...")
+if not(Rejected):
+    host = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    host.bind(("localhost", 5096))
+    host.listen(11)
 
-while True:
+    print(" [+] Waiting for connections...")
+
+    with open(f"{Dumps}\\Validate.txt", "w") as val:
+        val.write("1")
+
+while not(Rejected):
     client, clntaddr = host.accept()
-    print(clntaddr)
+    print("\n >> Connection From ",clntaddr, " has been Established...")
     send_msg("Hey?", client)
     # TODO: Figure out a way to specify Mods/To be synced values... ; TODO2: Add Method to connect and comunicate with clients
-
 
 cmd('pause>nul')
 
