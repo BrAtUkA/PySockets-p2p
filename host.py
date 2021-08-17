@@ -57,8 +57,8 @@ except:
     print("\n [!] Script usage : host.py <Server_ip> <Server_port> <username> <password>\n      Example >> host.py localhost 1234 BrAtUkA P@ssw0rd\n")
     s_ip = "13.76.177.227"
     s_port = 80
-    username = "BrAtUkA"
     password = "P@ssw0rd"
+    username = "BrAtUkA"
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
