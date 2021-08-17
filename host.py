@@ -1,9 +1,9 @@
 from os import getenv, makedirs, path, _exit
 from psutil import process_iter
+from threading import Thread
 from os import system as cmd
 from requests import get
 from time import sleep
-import threading
 import socket
 import json
 import sys
@@ -11,12 +11,13 @@ import sys
 APPDATA = getenv("APPDATA")
 Dumps = f"{APPDATA}\\\R6_Custom_Launcher1\\R6 Custom Launcher1\\1.0.0.0"
 ParentProc = "PyVBCustom.exe"
+Rejected = False
 
 if not ParentProc in (p.name() for p in process_iter()):
     print("\n\n [!] Unexpected Startup (Main Window Not Found...)")
     exit()
 
-class ngrok(threading.Thread):
+class ngrok(Thread):
     def run(self):
         appDat = getenv("APPDATA")
         cmd(f"cd /d {appDat}\\R6Moded && ngrok tcp -region=eu 5096>nul")
@@ -30,7 +31,7 @@ def run_ngrok():
     appDat = getenv("APPDATA")
     if path.isfile(f"{appDat}\\R6Moded\\ngrok.exe"):
         ngrok_pr.start()
-        sleep(2)
+        sleep(1)
         det = get("http://localhost:4040/api/tunnels").text
         det = det.split("\"public_url\":\"tcp://")[1].split(",")[0][:-1].split(":")
 
@@ -58,12 +59,6 @@ except:
     s_port = 80
     username = "BrAtUkA"
     password = "P@ssw0rd"
-
-
-ips = run_ngrok()
-ip = ips[0]
-port = ips[1]
-
 
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -100,11 +95,6 @@ def send_msg(msg, sockt):
     #print(f" Sending... '{msg}'") # debug purpose
     sockt.send(bytes(msg, 'utf-8'))
 
-data_string = f"add_h;{username};{password};{ip};{port}"
-send_msg(data_string, server)
-
-Rejected = False
-
 def wake():
     while ParentProc in (p.name() for p in process_iter()):
         try:
@@ -112,8 +102,10 @@ def wake():
         except Exception as e:
             reject()
             break
+
         if wake == "Alive?":
             send_msg("I am Alive!",server)
+
     server.close()
     print("\n [!] Unexpected Error...")
     _exit(403)
@@ -126,7 +118,52 @@ def reject():
     
     Rejected = True
 
-t1 = threading.Thread(target=wake)
+
+def broadcast_data_to_clients(data):
+    global clients
+    print(f"\n [+] Settings Were Updated, Bradcasting To Clients({len(clients)})...")
+    dedClnts = []
+    for clntconn in clients:
+        try:
+            send_msg(data, clntconn)
+        except:
+            dedClnts.append(clntconn)
+
+    for dedClnt in dedClnts:
+        print(f"\n '{str(dedClnt).split('raddr=')[1].replace('>','')}' Disconnected...")  # Temporary / Replace With Username
+        dedClnt.close()
+        clients.remove(dedClnt)
+
+
+def checkSettings():
+    while True:
+        file = open(f"{Dumps}\\SerDataV.json", "r")
+        data_bef = file.read()
+        file.close()
+
+        sleep(2)
+
+        file = open(f"{Dumps}\\SerDataV.json", "r")
+        data_aft = file.read()
+        file.close()
+
+        if data_bef != data_aft:
+            broadcast_data_to_clients(data_aft)
+
+def start_Sett_thread():
+    print(f"\n [+] Started Update Thread....")
+    t2 = Thread(target=checkSettings)
+    t2.start()
+
+
+ips = run_ngrok()
+ip = ips[0]
+port = ips[1]
+
+data_string = f"add_h;{username};{password};{ip};{port}"
+send_msg(data_string, server)
+
+t1 = Thread(target=wake)
 t1.start()
 
 sleep(1)
@@ -141,11 +178,25 @@ if not(Rejected):
     with open(f"{Dumps}\\Validate.txt", "w") as val:
         val.write("1")
 
+thr = False
+clients = []
 while not(Rejected):
     client, clntaddr = host.accept()
-    print("\n >> Connection From ",clntaddr, " has been Established...")
-    send_msg("Hey?", client)
-    # TODO: Figure out a way to specify Mods/To be synced values... ; TODO2: Add Method to connect and comunicate with clients
+    
+    if not thr:
+        start_Sett_thread()
+        thr = True
 
+    print("\n >> Connection From ",clntaddr, " has been Established...")
+    clients.append(client)
+
+    file = open(f"{Dumps}\\SerDataV.json", "r")
+    data = file.read()
+    file.close()
+    try:
+        send_msg(data, client)
+    except:
+        client.close()
+    
 cmd('pause>nul')
 
