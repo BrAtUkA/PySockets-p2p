@@ -141,7 +141,7 @@ def checkSettings():
         data_bef = file.read()
         file.close()
 
-        sleep(2)
+        sleep(1)
 
         file = open(f"{Dumps}\\SerDataV.json", "r")
         data_aft = file.read()
