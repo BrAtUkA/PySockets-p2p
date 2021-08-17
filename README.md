@@ -90,8 +90,10 @@ Clients will be returned the online hosts-Dictionary and will update it as soon 
 
 
 # To-do:
- - Create a Host-Client Connection after the Client Fetches the Address of the specified host.    [Pending...]
- - Authenticate Hosts (via Whitelist)    [Done!, in testing]
- - Check Host Connections and log activity to pick out and block suspicious Users.    [Done!, in Testing...]
+ - Improve Host UI Check...    [WIP...]
+ - Fix QOL/UI - Work on Special Cases/Bughunting    [WIP...]
+ - Create a Host-Client Connection after the Client Fetches the Address of the specified host.    [Done!] 473/500 Working 95%, could be improved
+ - Authenticate Hosts (via Whitelist)    [Done!] 500/500 Working 100% !
+ - Check Host Connections and log activity to pick out and block suspicious Users.    [Done!] NOC
 
 
