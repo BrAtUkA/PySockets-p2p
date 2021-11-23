@@ -1,5 +1,5 @@
 from os import getenv, makedirs, path, _exit, remove
-import socket, ipaddress, json, sys, winreg
+import socket, json, sys, winreg
 from psutil import process_iter
 from threading import Thread
 from os import system as cmd
