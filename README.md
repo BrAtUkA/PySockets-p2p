@@ -24,7 +24,7 @@ ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprfP225
 --
 
 #------ | Successfull Authentication Output | ------
-C:\Users\<username>ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprfP225
+C:\Users\User>ngrok authtoken 2l7lYB2bz6uhuA3q2l3giTeLt90_48E1fNcV37hKqjprfP225
 Authtoken saved to configuration file: C:\Users\<username>/.ngrok2/ngrok.yml
 ```
 
