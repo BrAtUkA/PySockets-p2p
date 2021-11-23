@@ -97,6 +97,8 @@ Clients can fetch addresses from the server by using this command:
 
  Upcoming Message Length: 47
  Message: {'My_username': ['6.tcp.eu.ngrok.io', '17553']}
+ 
+ [+] Waiting for selection...
 ```
 
 Clients will be returned the online hosts-Dictionary and will update it as soon as a host joins or leaves...
