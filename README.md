@@ -57,6 +57,11 @@ To Start The Server, Use The Following command:
 ```
 This will Bind the Server To The Given ip and port, And this will start listening For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
 
+## The Hosts/Clients can be handled via the PyHostJoinAPI.exe
+
+
+# Manual Host/Join
+
 ## Hosting and Adding Address to The Server:
 Hosts Can add thier address to the Server by Running The Following Command:
 ```
