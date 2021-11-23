@@ -39,6 +39,8 @@ To Start The Server, Use The Following command:
 
 #------- | Example Output | ------- (Following Output is When a Host Joins The Server...)
 
+ [OS : Windows]
+ 
  [+] Binded Server To >> 'localhost:1234'
 
 ====================--< Waiting For Connections >--=====================
