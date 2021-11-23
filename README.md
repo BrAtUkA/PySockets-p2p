@@ -6,7 +6,11 @@ tested and built on python-3.8.9
 ## Requirements:
  - Python-3.8=< (Recommended)
  - [Ngrok](https://ngrok.com/) Account (For Hosts who can't port-forward)
-
+Libraries:
+```
+pip install sockets
+pip install psutil
+```
 ## Setup:
 Hosts Will have to create a [Ngrok](https://ngrok.com/) Account (So That They can accept connections from clients, without _port-forwarding_)
  - Alternatively You can also use the **ngrok account** to deploy the server without _port-forwarding_, Note that only **one tunnel** can be created at a time with a **_free account_**.
