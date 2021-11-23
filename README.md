@@ -6,6 +6,7 @@ tested and built on python-3.8.9
 ## Requirements:
  - Python-3.8=< (Recommended)
  - [Ngrok](https://ngrok.com/) Account (For Hosts who can't port-forward)
+
 Libraries:
 ```
 pip install sockets
