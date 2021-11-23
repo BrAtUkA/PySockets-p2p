@@ -1,6 +1,7 @@
 # PySockets p2p System
 A simple Python Sockets p2p network system made without any extra Libraries.
 tested and built on python-3.8.9
+![alt text](https://cdn.discordapp.com/attachments/900002221188583474/912700343568183376/API.png)
 
 ## Requirements:
  - Python-3.8=< (Recommended)
