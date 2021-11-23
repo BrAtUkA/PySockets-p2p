@@ -7,8 +7,8 @@ import json
 import sys
 
 APPDATA = getenv("APPDATA")
-Dumps = f"{APPDATA}\\\R6_Custom_Launcher1\\R6 Custom Launcher1\\1.0.0.0"
-ParentProc = "PyVBCustom.exe"
+Dumps = f"{APPDATA}\\HostJoinSys"
+ParentProc = "PythonHostJoinAPI.exe"
 
 if not ParentProc in (p.name() for p in process_iter()):
     print("\n\n [!] Unexpected Startup (Main Window Not Found...)")
@@ -17,7 +17,7 @@ if not ParentProc in (p.name() for p in process_iter()):
 try:
     s_ip = sys.argv[1]
     s_port = int(sys.argv[2])
-    #hName = sys.argv[3]
+    uName = sys.argv[3]
 except:
     print("\n [!] Script usage : join.py <Server_ip> <Server_port>\n      Example >> join.py localhost 1234\n")
     s_ip = "13.76.177.227"
@@ -86,7 +86,7 @@ def updateHostlist(Hlis):
     hosts = Hlis
     print(f" Hosts = {hosts}\n\n")
 
-    with open(f"{APPDATA}\\\R6_Custom_Launcher1\\R6 Custom Launcher1\\1.0.0.0\\CurrentHosts.json", "w") as data:
+    with open(f"{Dumps}\\CurrentHosts.json", "w") as data:
         data.write(json.dumps(hosts))
 
 def watch_data():
@@ -109,8 +109,12 @@ def protect_Data():
         try:
             with open(f"{Dumps}\\SerDataP.json", "w") as file:
                 file.write(json.dumps(data))
+
             writ = True
             print(" [+] Updated Data...")
+            
+            with open(f"{Dumps}\\updated.txt", "w") as ch:
+                ch.write("1")
         except:
             print(" [!] Write Data Exception! (Retrying...)")
             sleep(0.05)
@@ -131,6 +135,7 @@ def Diss():
 def Disconnect():
     global Connected
     global host
+    global data
     if Connected:
         print(f"\n >> Disconnected From '{hName}'...")
 
@@ -143,6 +148,7 @@ def Disconnect():
             print(" >> Host Connection Lost...")
             print("\n [!] Waiting For Selection...")
 
+        data = {}
         host.close()
         Connected = False
 
@@ -171,8 +177,9 @@ while True:
             host.connect((hosts[hName][0], int(hosts[hName][1])))
             print(f"\n >> Connected to {hName}...")
             remove(f"{Dumps}\\SelectedHost.txt")
+            send_msg(uName,host)
 
-            with open(f"{Dumps}\\conn.txt", "w") as conn:
+            with open(f"{Dumps}\\connected.txt", "w") as conn:
                 conn.write("1")
 
             Connected = True
@@ -184,14 +191,15 @@ while True:
     while Connected:
         try:
             data = receive_msg(host, False)
-            data = json.loads(data)
-            #print("\n\n",data, "\n\n")
+            print("\n\n",data, "\n\n")
+            if isinstance(data, str):
+                data = json.loads(data)
 
             writ = False
             while not writ:
                 try:
                     with open(f"{Dumps}\\SerDataP.json", "w") as file:
-                        file.write(json.dumps(data))
+                        file.write(str(data))
                     writ = True
                 except:
                     print(" [!] Write Data Exception! (Retrying...)")

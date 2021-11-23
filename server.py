@@ -178,7 +178,6 @@ def refresh_blacklist(hostip):
         pass
 
 
-
 # ---- main -----
 
 HEADERSIZE = 20
