@@ -1,21 +1,20 @@
-from os import getenv, makedirs, path, _exit
+from os import getenv, makedirs, path, _exit, remove
+import socket, ipaddress, json, sys, winreg
 from psutil import process_iter
 from threading import Thread
 from os import system as cmd
 from requests import get
 from time import sleep
-import socket
-import json
-import sys
 
 APPDATA = getenv("APPDATA")
-Dumps = f"{APPDATA}\\\R6_Custom_Launcher1\\R6 Custom Launcher1\\1.0.0.0"
-ParentProc = "PyVBCustom.exe"
+Dumps = f"{APPDATA}\\HostJoinSys"
+ParentProc = "PythonHostJoinAPI.exe"
 Rejected = False
 
 if not ParentProc in (p.name() for p in process_iter()):
     print("\n\n [!] Unexpected Startup (Main Window Not Found...)")
     exit()
+
 
 class ngrok(Thread):
     def run(self):
@@ -47,6 +46,9 @@ def run_ngrok():
         det = get("http://localhost:4040/api/tunnels").text
         det = det.split("\"public_url\":\"tcp://")[1].split(",")[0][:-1].split(":")
         return det
+
+
+
         
 try:
     s_ip = sys.argv[1]
@@ -121,34 +123,68 @@ def reject():
 
 def broadcast_data_to_clients(data):
     global clients
-    print(f"\n [+] Settings Were Updated, Bradcasting To Clients({len(clients)})...")
+    global clientUs
+    print(f"\n [+] Settings Were Updated, Bradcasting To Clients({len(clients) -1})...")
     dedClnts = []
     for clntconn in clients:
-        try:
-            send_msg(data, clntconn)
-        except:
-            dedClnts.append(clntconn)
+        if clntconn != "null":
+            try:
+                send_msg(data, clntconn)
+            except:
+                dedClnts.append(clntconn)
 
     for dedClnt in dedClnts:
-        print(f"\n '{str(dedClnt).split('raddr=')[1].replace('>','')}' Disconnected...")  # Temporary / Replace With Username
+        #print(f"\n '{str(dedClnt).split('raddr=')[1].replace('>','')}' Disconnected...")  # Temporary / Replace With Username
+        print(f"\n '{clientUs[clients.index(dedClnt) ]}' Disconnected...")  # Temporary / Replace With Username
         dedClnt.close()
+        del clientUs[clients.index(dedClnt)]
         clients.remove(dedClnt)
+        with open(f"{Dumps}\\UsrJoined.json", "w") as Usf:
+            Usf.write(json.dumps(clientUs))
 
+def rem_cl(utosend):
+    clients[clientUs.index(utosend)].close()
+    del clientUs[clientUs.index(utosend)]
+    clients.remove(clientUs.index(utosend))
+    with open(f"{Dumps}\\UsrJoined.json", "w") as Usf:
+        Usf.write(json.dumps(clientUs))
+    
 
 def checkSettings():
     while True:
+        specU = True
         file = open(f"{Dumps}\\SerDataV.json", "r")
         data_bef = file.read()
         file.close()
 
-        sleep(1)
+        for trys in range(0,10):
+            try:
+                speF = open(f"{Dumps}\\SpecUser.json", "r")  # Cant read file ??? WTF
+                speF.seek(0)
+                full = speF.read()
+                utosend = json.loads(full)["User"]
+                speF.close()
+                remove(f"{Dumps}\\SpecUser.json")
+                specU = True
+            except Exception as e:
+                #print(e.with_traceback(None))
+                sleep(0.1)
+                specU = False
+                pass
 
+            if specU:
+                try:
+                    send_msg(json.loads(full), clients[clientUs.index(utosend)])
+                    print(f" [+] Updated Settings Sent to",utosend,"...")
+                except:
+                    rem_cl(utosend)
+            
         file = open(f"{Dumps}\\SerDataV.json", "r")
         data_aft = file.read()
         file.close()
-
         if data_bef != data_aft:
-            broadcast_data_to_clients(data_aft)
+            if not specU:
+                broadcast_data_to_clients(data_aft)
 
 def start_Sett_thread():
     print(f"\n [+] Started Update Thread....")
@@ -179,23 +215,35 @@ if not(Rejected):
         val.write("1")
 
 thr = False
-clients = []
+
+clients = ["null"]
+clientUs = ["All"]
+
 while not(Rejected):
+
     client, clntaddr = host.accept()
-    
+
+    try:
+        clientU = receive_msg(client, False)
+        print("\n >> Connection From ",clientU, " has been Established...")
+        clients.append(client)
+        clientUs.append(clientU)
+        with open(f"{Dumps}\\UsrJoined.json", "w") as Usf:
+            Usf.write(json.dumps(clientUs))
+    except Exception as e:
+        continue
+
     if not thr:
         start_Sett_thread()
         thr = True
 
-    print("\n >> Connection From ",clntaddr, " has been Established...")
-    clients.append(client)
-
     file = open(f"{Dumps}\\SerDataV.json", "r")
     data = file.read()
     file.close()
+
     try:
-        send_msg(data, client)
-    except:
+        send_msg(json.loads(data), client)
+    except Exception as e:
         client.close()
     
 cmd('pause>nul')
