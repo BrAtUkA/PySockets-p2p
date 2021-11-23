@@ -9,7 +9,6 @@ tested and built on python-3.8.9
 
 Libraries:
 ```
-pip install sockets
 pip install psutil
 ```
 ## Setup:
