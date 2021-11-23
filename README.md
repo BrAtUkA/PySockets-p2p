@@ -24,7 +24,7 @@ ngrok authtoken YOUR_NGROK_AUTHTOKEN
 --
 
 #------ | Successfull Authentication Output | ------
-C:\Users\<username>ngrok authtoken YOUR_NGROK_AUTHTOKEN
+C:\Users\User>ngrok authtoken YOUR_NGROK_AUTHTOKEN
 Authtoken saved to configuration file: C:\Users\<username>/.ngrok2/ngrok.yml
 ```
 
