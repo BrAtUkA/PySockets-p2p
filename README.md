@@ -57,9 +57,9 @@ To Start The Server, Use The Following command:
  Current Clients:  0
 
 ```
-This will Bind the Server To The Given ip and port, And this will start listening For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
+This will Bind the Server To The Given ip and port, And the server will start listening For Incoming Requests from both Hosts and Clients, and manage Data Accordingly
 
-# - Hosts/Clients can be handled via PyHostJoinAPI.exe -
+# - Hosts/Clients can be handled via [PyHostJoinAPI](https://github.com/BrAtUkA/PySockets-p2p/blob/main/vsProject/PythonHostJoinAPI.zip) -
 
 
 ### Manual Host/Join:
@@ -101,7 +101,7 @@ Clients can fetch addresses from the server by using this command:
  [+] Waiting for selection...
 ```
 
-Clients will be returned the online hosts-Dictionary and will update it as soon as a host joins or leaves...
+Clients will be returned the online hosts-Dictionary that will get updated whevever a host joins or leaves...
 
 
 # To-do:
