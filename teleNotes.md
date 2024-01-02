@@ -409,11 +409,20 @@ possess free will, and therefore worship and obey God in total obedience.
    3. Prophets (AS)
       - Muslims identify the Prophets (AS) of Islam as those humans chosen by Allah (SWT) to be
 Allah’s Messengers.
+   4. Revelations
+      - Muslims believe that God dictated His revelations to the various Prophets. Islam teaches
+that parts of the previously revealed scriptures.
+   5. Resurrection and Judgment: 
+      - Muslims believe in the "Day of Resurrection" and the Quran emphasizes the resurrection of
+the body
+   6. Qadr (Divine Decree)
+      - Muslims believe that Allah (SWT) has full knowledge and control over all that occurs.
 
 
 
+## <ins>20th Lec:</ins> Righteous Deeds (II)
 
-## <ins>20th Lec:</ins> 
+
 ## <ins>21st Lec:</ins> 
 ## <ins>22nd Lec:</ins> 
 ## <ins>23rd Lec:</ins> 
