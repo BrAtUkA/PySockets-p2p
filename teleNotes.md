@@ -706,8 +706,10 @@
 
 ```
 Other topics:
-1. British Rule and Muslims of Sub-Continent. (1600-1857)
-2. Muslim Leadership and growth of Two Nation Theory. (1857-1930)
+1. Zulfikar Ali Butto Government. (Imp)
 
-3. Overview of History. 
+2. British Rule and Muslims of Sub-Continent. (1600-1857)
+3. Muslim Leadership and growth of Two Nation Theory. (1857-1930)
+
+4. Overview of History. 
 ```
