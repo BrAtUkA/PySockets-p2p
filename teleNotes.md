@@ -223,7 +223,7 @@
 
 
 
-- ## <ins>5: Initial problems of Pakistan</ins> —Establishment of Pakistan: *(1947-1960—A)*
+## <ins>5: Initial problems of Pakistan</ins> —Establishment of Pakistan: *(1947-1960—A)*
 
 - 57th Nation state of United Nations, Pakistan emerged on the World Map as a sovereign state on ***August 14, 1947***.
 
@@ -302,7 +302,7 @@
     - Constitution making.
 
 
-- ## <ins>6: Constitional Development</ins>: *(1947-1956—B)*
+## <ins>6: Constitional Development</ins>: *(1947-1956—B)*
 
 - The India Act of 1935, became the interim constitution of Pakistan with slight modifications.
   - It was not sufficient to fulfill the requirements of an independent state.
@@ -610,7 +610,7 @@
 
 
 
-## <ins>10: Constitution Of _1973_</ins>:
+## <ins>9: Constitution Of _1973_</ins>:
 - Promulgated on ***14 August, 1973***
 - Prefaced a preamble and consist of 280 articles, arranged in 12 parts, and six schedules.
 - **Rigid Constitution.**
@@ -666,4 +666,48 @@
     - (14-general + 4-technocrats + 4-women + 1-non-Muslim=23 from each Province), 8-FATA, 4-capital territory. 
 - ### Prime Minister and Cabinet:
   - Leader of House and Head of the Government.
-  - ...
+  - Elected by National assembly after 30 days of general elections.
+  - Must enjoy the confidence of National Assembly.
+  - Real executive authority vested in the Prime Minister.
+  - He is fully empowered to appoint/dismiss his Ministers/Cabinet.
+  - Collectively responsible to the National Assembly. 
+- ### Federal Structure:
+  - **Comprised of:**
+    - Four Provinces— Punjab, Sind, KPK, and Balochistan.
+    - Islamabad as Capital territory.
+    - The Federal administered tribal Areas.
+    - Such states and territories as are or may be included in Pakistan whether by accession or otherwise.
+  - Autonomy for Provinces.
+  - Residuary powers were given to Provinces. 
+  - Federal govt. provides security to Provinces in any case. 
+  - Provinces are bound to follow Federal government’s decisions.
+  - Machinery for harmonious relations between Center and Provinces:
+    - The Council of Common Interests.
+    - National Economic Council
+    - Special Provisions regarding Electricity, Natural Gas and Broadcasting & Telecasting.
+    - National Finance Commission. 
+- ### Judiciary 
+  - Independence of Judiciary was guaranteed. 
+  - Supreme Court— Headed by Chief Justice with 6 judges. 
+  - Judges could hold office till the age of 65.
+  - Had original as well as appellate jurisdiction.
+  - Can take any step to ensure Justice.
+  - Power to review any judgment or any order made by it.
+  - Head of Judiciary.
+- ### High Court 
+  - Each Province had a High Court.
+  - Consisted of Chief Justice and other Judges. 
+  - Appointed by the President of Pakistan with consent of Chief Justice of Pakistan.
+- ### Fundamental Rights
+  - All Fundamental rights are guaranteed under the Umbrella of Judiciary.
+  - Constitution can be amended only by 2/3 majority of members of National Assembly.
+---
+
+
+```
+Other topics:
+1. British Rule and Muslims of Sub-Continent. (1600-1857)
+2. Muslim Leadership and growth of Two Nation Theory. (1857-1930)
+
+3. Overview of History. 
+```
