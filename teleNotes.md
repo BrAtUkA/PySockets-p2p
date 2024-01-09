@@ -1,429 +1,669 @@
-# History Section (I)
 
-## <ins>11th Lec:</ins> Prophet Mohammad  (I)
-
-- Prophet's universal praise/testimonies by non muslims.
-  - Considered the most influential person.
-  - Ghandi wanted to study more of Prophet's Life.
-  - Malcom X said, _“Trying to defame Prophet Mohammad (PBUH) is just like spitting on the Sun”_
-- Allah's best creation: Prophet.
-
-
-
-## <ins>12th Lec:</ins> The Life of Prophet Mohammad (PBUH) and Pluralism  (I)
-
-- We should propagate tolerance from our own character to the world
-- __Propaganda:__
-  - Muslims are propagated to be non-tolerant (terrorists).
-  - 87.5 million war-dead people for politics in 20th Century.
-
-- Under islamic rule both jews and muslims had their golden age.
-- Tolerance was an inherent aspect of Islamic Society.
-- No retaliation for personal reasons.
-- Kindness with animals. (restless bird after ghazwa was cared about)
-- __We need to hold high values so others get influenced:__
-  - Muslim traders influenced people in Indonesia (Java) as traders doing fair trade.
-  - Examples are required for people to see Islam in its true spirit.
-- All are equal except in terms of taqwa.
-  - Want for others what you want for yourself.
-  - Shouldn't pick out cheap things for charity.
-- Islam is universal
-- Don't leave your religon to be tolerant.
-
-
-
-## <ins>13th Lec:</ins> Seerat un Nabi(part A) – ___(Makki Period)___   (I)
-- <ins>__Meaning of Seerah:__</ins>
-  - Seerah comes form the verb __saara__ that means Journey. _(journey through life)_
-  - __Literal meaning:__ In islamic sciences, it means the study of Prophet's life.
-
-- <ins>__Childhood:__</ins>
-  - Son of Hazrat Abdullah, Who Died before prophet's birth, at the age of 6 his mother Hazrat Amna died
-  - Was raised in a rural area for upbringing and nursing
-
-- <ins>__Youth and marriage:__</ins>
-  - Worked as a shepard as a young boy, started trading and earned the title "Truthful One"
-  - Hazrat Khadija (RA) heard about his fame and asked him to trade for her, Got inspired and married him.
-
-- <ins>__Prophethood:__</ins>
-  - Never participated in adultery, was not convinced by polythiesm, was more concerned about social malicious practices, started going to a cave named Hira.
-  - During 610, when he was 40, one night, Allah (SWT) sent an angel Gabriel with divine
-revelation, that was “Iqra”
-  - Everyone, even his uncles __Abu Lahab__ and __Abu jehal__, except a few near ones became enemies
-
-- <ins>__Difficulties / Hardships:__</ins>
-  - Makkans were not ready as their socioeconomic and political status was at risk.
-  - They became harsh and inhumane towards the Prophet and new Muslims.
-
-- <ins>__Journey of Ta’if:__</ins>
-  - Collected all the 170 believers the Prophet could find in Makkah in ten years, and moved to Ta'if for preaching.
-  - People of Ta'if rejected him and his preaching too, even told their young ones to throw rocks at the Prophet.
-
-- <ins>__She’eb Abi Talib:__</ins>
-  - Quraish held a meeting and decided to outcast the __Banu Hashim__ and __Banu al-Muttalib__ by placing them under a total social boycott.
-  - Forced to leave makkah and live in __She’eb Abi Talib__, stayed there for about 3 years.
-
-- <ins>__Migration to Yathrib:__</ins>
-  - Prophet and his followers suffered prosecution for 13 years in Makkah, eventually they left the city and migrated to  Yathrib (Madina)
-
-
-
-## <ins>14th Lec:</ins> Seerat un Nabi(part B) – ___(Madni Period)___   (I)
-- After 8 days of travel the Prophet and Hazrat AbuBakr stopped at the outskirts of madina called __Quba__, and constructed a mosque.
--  <ins>__Threats to Mission of Islam and A New State:__</ins>
-
-   - <ins>The Hypocrites:</ins>
-     - Started with Abdullah IbneUbay, who envied Prophet and became the leader of hypocrites working with jews to destroy it
-
-     - ayahs in Surah Al-Munafiqoon and Surah Al-Baqarah came to describe the issue of
-hypocrisy
-
-   - <ins>Three Jewish Tribes:</ins>
-     - They were thinking that the prophet will be appointed from their clan and they were used to threat different tribes of Madinah • __Banu Nazeer__ • __Banu Qurayza__ • __Banu Qaynuqa__
-
-     - Enraged after learned Prophet is from a different tribe.
-
-- <ins>__First written Constitution:__</ins>
-
-  - Freedom to practice one's religion.
-  - Equal rights.
-  - A system of financial aid was developed within and between each tribe. _(communal funds)_
-  - In the event of war from outsiders, all tribes must participate.
-  - In the event of dispute, Prophet was the final authority.
-  - The Quraysh of Makkah were to be boycotted commercially.
-
-- <ins>__Major Battles:__</ins>
-
-  - <ins>Battle of Badr:</ins>
-    - Muslims army were only 313 in number and non-believers of Makkah were about 1000 in number.
-    - Allah sent 1000 angels for help after Prophet made a dua.
-
-  - <ins>Battle of Uhud:</ins>
-    - Prophet set archers in position and told them not to move, when they saw the battle is almost over they got off their position.
-    - Hazrat Hamza, Prophet's uncle, was martyred and the Muslims lost.
-
-   - <ins>Battle of Trench:</ins>
-
-     - Hazrat Salman Farsi proposed the idea of digging a trench to fight with the army of non-believers as they were great in number
-
-     - Prophet himself helped in the digging and work for the trench
-     - This lead to victory of Muslims.
-
-- <ins>__Treaty of Hudaybiyyah__</ins>
-  - Six years after Hijra, in 628 CE, the Prophet dreamt that he and his followers were entering Makkah and performing Tawaf, so he declared his plan to visit makkah.
-
-  - About 1400 Muslims with 70 camels went to Makkah with the Prophet.
-  - Alarmed by the huge Muslim presence Quraysh denied them entry and sent 200 fighters.
-  - Prophet changed paths to avoid contact and went to Hudaybiyyah.
-  - Makkans sent __Urwah bin Masudto__ negotiate with Prophet. He got impressed by Prophet's follower's respect.
-  - Prophet sent Hazrat Usman, who had good contacts, but the makkans detained him and spread a rumor that he's dead.
-  - When the Prophet said he will ready all 1400 for fighting, the Makkans morale broke and they asked for terms for peace.
-  - They released __Hazrat Usman__ and sent __Sohayl bin Amr Al-Thaqafi__ to negotiate the terms of peace.
-  - <ins>__Terms:__</ins>
-    - No fighting for 10 years.
-    - Anyone can make agreements with Prophet or Quraysh.
-    - If a young man went to Prophet he will be returned to his guardian, but if he went to Quraysh he will not be returned.
-    - This year Muslims have to go back without entering Makkah, The next year Muslims can come for the 3 tawaf days. Muslims must be unarmed.
-
-- <ins>__Conquest of Makkah__</ins>
-  - The Treaty was broken 2 years later by Makkan related tribe who attacked a Muslim tribe.
-  - Prophet decided to take an army of 10,000 towards makkah.
-  - When muslims entered ka'aba, Prophet announced forgiveness for everyone that no longer wished to fight Muslims. This surprised all that were expecting some sort of punishment.
-  - Some became Muslim because of it.
-  - conquest of Makkah was bloodless, Ended years of conflict.
-
-- <ins>__Completion / Last pilgrimage:__</ins>
-  - He made his famous speech, known as the Farewell Sermon, to a crowd of over 120,000 companions in the Arafat valley in the afternoon.
-  - All people are servants of Allah and have the same ancestors.
-  - Human rights.
-  - Importance of unity and cooperation.
-  - Interest and bloodfued were forbidden.
-
-
-
-## <ins>15th Lec:</ins>  Islamic Caliphate   (I)
-- Not supposed to rule but be a guiding principle for Islamic rules.
-
-1. ### <ins>__Hazrat Abu Bakr:__</ins> _(632 - 634)_
-   - Belonged to a noble family of __Bunu Tamim__ of _Qureyshi_ tribe in Makkah.
-   - Disciplined tribes that renounced Islam after Prophet's death.
-   - Defeated arab rebellions.
-     - The Ridda or Apostasy Wars were a series of conflicts with tribes that said their agreement to be Muslim was only a contract with Prophet.
-   - Consolidated support from tribes in the Arab peninsula.
-     - __Sassanians__ in _Persia_ and the __Byzantines__ in _Syria_, _Palestine_, and _Egypt_.
-   - Compilation of the Quran in hard copy.
-   - Assembling the scattered Muslim tribes.
-
-2. ### <ins>__Hazrat Umar Farooq:__</ins> _(634 - 644)_
-   - Belonged to the Adi family of the _Qureyshi_ tribe of Makkah.
-   - Had been the chief advisors to __Hazrat Abu Bakr__.
-   - Was his successor because of his willpower,intelligence, political astuteness, impartiality, justice, and care for poor and underprivileged
-people.
-   - Reached the far-off corners of the world, including _Roman_ and _Persian_ regions.
-      - At a famous battle fought during a sandstorm near the River _Yarmuk_, blunted the power of the __Byzantines__.
-   - Formation of __Bait-ul-maal__.
-   - Division of larger regions into provinces.
-   - Making of present Hijri (Islamic) calendar.
-   - was assassinated by a rebel while he was praying congregational Salah in the mosque. He died three days after that unfortunate happening.
-
-3. ### <ins>__Hazrat Usman Ghani:__</ins> _(644 - 656)_
-   - Belonged to the Umayyah family of the Qureyshi tribe of Makkah.
-   - Selected by council comprised of Prophet's companions.
-   - Continued to defend the Muslim state against the __Byzantines__
-   - Added what is now _Libya_ to the empire, and subjugated most of _Armenia_.
-   - Established an Arab navy, which fought a series of important engagements with the Byzantines.
-   - Captured the far-off regions of the world like _North Africa_, the formation of first  Muslim   Naval Force and beating the _Roman_ realm.
-   - Gathered Muslims on a single Tajweed of the Quran.
-   - These successes, however, were qualified by serious administrative weaknesses.
-      - __Hazrat Usman__ was accused of favoritism to members of his family (Umayah Clan)
-   - __Hazrat Usman__ was killed on 17th of July, 656 A.D. He died at the old age of 84.
-
-4. ### <ins>__Hazrat Ali Murtaza:__</ins> _(656 - 661)_
-   - Belonged to a highly-respected family of __Bani Hashim__ of _Qureyshi_ tribe in Makkah.
-   - Married the youngest and the most beloved Daughter of the Prophet, __Hazrat Fatima__.
-   - Following the assassination of Caliph __Hazrat Usman__, __Hazrat Ali__ was forced to accept the position of the Caliph.
-   - At the time of coming into power, Islamic world was not unified.
-   - He fought them and destroyed most of the Kharijites (rebellion movement)
-   - Removed the corrupt regional governors of the Islamic empire.
-   - When he was 63 years of age, __Hazrat Ali__ was martyred with a poisoned sword by one of the rebels while he was performing the prostration of Fajar Salah in Kufa mosque on the 19th of Ramadan, 40 A.H (661 A.D)
-
-
-
-## <ins>16th Lec:</ins> Umayyads and Abbasids   (I)
-- ### <ins>__Umayyad Period:__</ins> _(661 - 750)_
-
-    - In this Caliphate, _AhlulKitaab_ were not forced to embrace Islam, but they were allowed to follow their own religious practices representing religious tolerance as long as they pay __Jizya__.
-
-    - Muslims also payed a tax known as __Zakat__.
-
-    - Expanded from Spain, Persia, some parts of Pakistan, Mesopotamia, North Africa, Crete, Sicily, Sardinia, Northwest India, and Eastern Mediterranean Sea.
-
-    - Capital was at Damuscus.
-    - Brought wealth and new converts to Islam.
-
-    - Domestic turmoil prevailed and Umayyads moved away from __Taqwa__, having gained such wealth, living lavishly like royals, not caring about principles of Islam and Sunnah.
-
-    - The only notable leaders among Umayyads is the __Hazrat Umer bin Abdul Aziz__. _(Golden era of Umyyads)_
-       - Lifted away the Jizya tax on those Non-believers who convert to Islam.
-       - Lifted away all extra allowances to his own family members.
-       - He treated everyone equally without any nepotism (family members were treated lime common men)
-       - He was later poisoned when his successive government tried to reverse his financial and tax policies
-
-   - Became soft and corrupt due to wealth.
-   - Warrior lifestyle was abandoned and entertainment, music and decadent lifestyle was prevailing among Umayyads
-   - Along the Indian frontier, warrior settlers revolted against the Umayyads with the help of the Abbasids.
-   - In 750 CE, the Abbasids replaced Umayyads, and Umayyads were completely wiped out.
-
-- ### <ins>__Abbasids Period:__</ins> _(750 - 1258)_
-   - Had to take care of internal conflicts at first.
-   - 786 CE to 861 CE is known as the golden era of the Abbasids.
-   - 813 CE to 833 CE, Mamoon was in power, he put down many rebellions and fought wars with the Byzantine empire.
-   - Built a centralized state with _Baghdad_ as Capital. The absolute power was at the center of the state.
-   - The bureaucracy was under wazirs.
-   - The __Abbasids__ were less powerful at a distance and strong at the center and they were not as sophisticated as the __Umayyads__ were.
-   - Built Bait-ul-Hikma (House of Wisdom).
-      - Was a formal academy.
-      - A lot of knowledgeable stuff could be found in this library.
-      - Was destroyed by Mongols.
-   - Were Invaded by Mongols, who got inspired and converted to Islam.
-   - The Abbasids followed the decadent and luxurious lifestyle, they considered themselves above the principles of Islam.
-
-- <ins>__Ibn Sina:__</ins>
-   - Described in medieval Europe as the father of early modern medicine.
-   - Most important discoveries was the recognition of the potential for the airborne transmission of disease.
-   - Was the first one to differntiate between central and peripheral paralysis.
-   - Conducted groundbreaking research on psychiatric conditions
-   - Ibn Sina’s book _The Canon of Medicine_ was still being used as the standard medical textbook in European universities till 17th century—600 years after it was written.
-
-- <ins>__Ibn-e-Rushd:__</ins>
-   -  Known in the West as Averroes.
-   -  Defended the rationalism of Aristotle.
-   - Became a major and unique influence on the medieval philosophy of all three Abrahamic religions: __Judaism__, __Christianity__, and __Islam__.
-
-- <ins>__Muhammad ibn Musa al-Khwarizmi:__</ins>
-   - His name is at the heart of algebra and algebraic calculations.
-   - Born in modern-day Uzbekistan around the year 780, al-Khwarizmi was a Persian scholar who did most of his work in Baghdad’s House of Wisdom.
-   - First original work of Muslim astronomy, till then they only adopted translations of others work.
-
-- <ins>__Al-kindi:__</ins>
-   - At the heart of __Al-Kindi’s__ studies, are his philosophical writings, which drew heavily on ancient Greek learning. (Plato, Aristotle, Plotinus)
-   - __Al-Kindi’s__ own philosophical inquiries emulated those of __Aristotle__.
-   - Was the first Arab to produce a comprehensive ordering of the different branches of science then practiced
-   - __Al-Kindi__ was a fierce critic of alchemy, the medieval predecessor of chemistry.
-      - ahderents believed it possible for lead to be converted to gold through alchemy
-      - It is now known as a psudeoscience which was once taken very seriously.
-   - __Al-Kindi__ derided alchemy as a refuge for those interested in get-rich-quick schemes.
-
-- <ins>__Abu Rayhan Muhammad ibn Ahmed al-Biruni:__</ins>
-   - Born in the city of Khwarezm, in modern-day _Uzbekistan_.
-   - __Al-Biruni__ had a lifelong obsession with measuring time and space.
-   - This drive found an outlet in geodesy, the branch of applied mathematics concerned with measuring the Earth.
-   - __Al-Biruni’s__ calculation of the Earth’s circumference produced a result with an error of less than __1 percent__, (about 200 miles). A similar degree of accuracy wasn't achieved in Europe until the 16th century.
-   - Although __Al-Biruni__ accepted— as it was written in the Quran— that the Earth lay at the center of the universe, his observations led him to postulate that we might actually live in a heliocentric world, with the Sun, not the Earth, at the center of things.
-
-- <ins>__Ibn Khaldun:__</ins>
-   - The very agenda of social sciences, why and how change occurs in society, was mapped by __Ibn Khaldun__.
-   - Produced a coherent body of analysis of why societies rise, peak and wane.
-   - Spread himself across many disciplines and spheres of work.
-   - __Ibn Khaldun__ shaped history as a branch of social science.
-   - __Ibn Khaldun’s__ exploration of what dynamics trigger change in society displays the skill set of a political economist.
-   - __Ibn Khaldun’s__ _‘Muqaddimah’_, is a multi-volume tract which starts by explaining the origins of civil society. Then it moves on to a set of dos and don’ts for government relations with civil society, specifies how to tell good taxes from bad ones and sums up the nature of entrepreneurship.
-
-- <ins>__Europeans Influenced by Muslims Knowledge:__</ins>
-   - __Europeans__ visited and learned the _Arabic_ language to learn knowledge.
-   - They learned and took books with them.
-   - __European__ people opposed religion due to the orthodoxically and influential nature of the powerful church.
-   - Christian went through downfall and they came out to be more knowledgeable about the advent of secular ideology.
-   - People of this era, like Carl Marks, Sigmund Freud, etc., where atheist and anti-religion.
-   - Those who had written books regarding the backwardness of religion. They all were well-versed of only Christianity not of Islam. Whereas, Islam is a more modern religion and accepts modern knowledge.
-# Theory Section (II)
-
-
-
-## <ins>17th Lec:</ins> Fiqh and Shariah(A)—Six Basic Rules of Fiqh:  (II)
-
-- __Rule 1: Enter into Islam Completely__
-   - It is important to enter in Islam from the tops of their heads to the tips of their toes so that
-they are completely submerged in Islam.
-
-- __Rule 2: Every Act of Worship is Haram__
-   - Except if we have proof its from Quran or Sunnah.
-
-- __Rule 3: Everything from the Worldly Affairs is Halal__
-   - Being not used by the Prophet Mohammad (PBUH) and his companions doesn’t make a thing impermissible, unless it is said to be forbidden.
-
-- __Rule 4: A Worldly Matter is Placed into one of Five Categories__
-   - <ins>Farz:</ins> it is mandatory.
-   - <ins>Mustahab:</ins> it is preferred but not mandatory, liked by Allah. ie
-   - <ins>Muhab:</ins> doing it or not doesnt make a difference, there is no reward or sin for it. i.e eating an apple.
-   - <ins>Makrooh:</ins> these are not liked by Allah. i.e Eating onions and going to the mosque,by doing it we are not sinful but avoiding it is rewarded.
-   - <ins>Haram:</ins> they are forbidden and sinful.
-
-- __Rule 5: Things are Made Haram or Makrooh Using the Quran and Sunnah or the Scholars Deducing through Analogy__
-   - Sometimes we have clear evidence that one thing is haram and sometimes with that analogy, other things can be made haram too.
-
-      - For example, when scholars find out the alcohol is coming with different names, and they find out that alcohol is haram for its effects and intoxication.
-
-   - What is harmful to our body is also impermissible in Shariah. Allah (SWT) said, do not kill
-yourself with your hands.
-
-- __Rule 6: Make Things Easy__
-   - Make things easy for people and don’t make them difficult.
-   - When we are traveling, we are allowed to shorten or join the prayer.
-   - Watch out for these activities:
-     - Intoxicants
-     - Gambling
-     - __Free-Mixing__ (male & female) – Allah (SWT) said, don’t go near Zina.
-     - __Wastage of time__ – Any game which doesn’t have any purpose and wastes your time is not appreciated.
-     - __Compromise on Modesty__ – Any activity in which male or female has to compromise his/her modesty is impermissible.
-     - __Extravagance__ – Spending a lot of money unnecessarily.
-     - __Fortune telling__ – Every kind of fortune telling whether its palm reading, tarot reading etc. is impermissible
-     - __Mocking Islam__ – Making fun of Islam in any way is impermissible.
-     - __Causing Harm__ – Anything which can harm ourselves is not respected.
-
-
-
-## <ins>18th Lec:</ins> Fiqh and Shariah(B)—Deen & Fiqh vs Shariah:  (II)
-- In Christianity, Pope is considered as an authority and he can make changes in their
-legislations. But in Islam, no scholars have such a liberty to make any changes in the Quran
-and shariah.
-
-- ### Deen vs Shariah
-   - __<ins>Deen:</ins>__ 
-      - Many Prophets appeared to guide the people towards Allah before the Prophet Mohammad, and had the same and single message. 
-      - Deen remained the same for all humanity for centuries.
-
-   - __<ins>Shariah:</ins>__ 
-      - It’s quite general in nature and also known as the divine law.
-      - the sharia’s of Hazrat Noah and Hazrat Musa were quite different from the Shariah of Prophet Mohammad in many respects.
-      - Prophet Mohammad said if Hazrat Musa were alive He would have to follow Islam instead of his own shariah.
-
-- ### Fiqh vs Shariah
-   - __<ins>Fiqh (Jurisprudence):</ins>__ 
-      - Fiqh is the application of shariah in specific conditions and circumstances.
-      - Fiqh has a capacity of change in it based on new evidences and an application. (Ijtihad)
-      - A faqeeh has to see many aspects of issues to give fatwa about new and arising issues.
-
-   - __<ins>Shariah:</ins>__
-      - Shariah is the divine law which is based on Quran and Sunnah and quite general in nature.
-      - Islamic Shariah involves every aspect of human life.
-      - The scholars of Fiqh are more knowledgeable than other scholars.
-
-- ### Imams of Fiqh:
-   1. Imam Abu Haneefa
-   2. Imam Malik
-   3. Imam Shafi’i
-   4. Imam Ahmed ibn Hanbal
-
-   - The Imams were great scholars of their time. They made the following points very clear:
-      - They followed the madhab (religion) of the authentic Ahadith.
-      - They did not write their own opinion unless there was an ijma. (unanimous decision)
-      - They rejected it. If their opinion contradicted with the Quran and Sunnah.
-
-- Sectarianism is disliked
-- Previous Messengers had the same relgion just at an early stage, Ibrahim was not jew or Christian but he was a true Muslim.
-- Muslims must strive hard in Allah's cause, they are commanded to serve Allah with sincere devotion.
-   - perform zakat, salat and hold fast.
-   - Worship none but Allah.
-
-
-
-## <ins>19th Lec:</ins> Pillars of Islam and Articles of Faith (II)
-
-- ### __Five Pillars of Islam:__
-   -  Shahadah (Creed)
-   - Daily prayers (Salat)
-   - Fasting during Ramadan (Sawm)
-   - Almsgiving (Zakat)
-   - Pilgrimage to Makka (Hajj) at least once in a liftime.
-
-- <ins>__1\. Shahadah:__</ins>
-   - Shahadah is a saying and confessing monotheism and accepting Prophet Mohammad as God's last Messenger.
-
-- <ins>__2\. Salat:__</ins>
-   - Salat is the Islamic prayer. As per Prophet Mohammad (PBUH) the difference between a Muslim and a non-believer is Salat.
-
-- <ins>__3\. Sawm:__</ins>
-   - Three types of fasting are recognized by the Quran: __ritual fasting__, __fasting as
-compensation for repentance__ (both from Surah Al-Baqarah), and __ascetic fasting__ (from Surah Al-Ahzab).
-
-- <ins>__4\. Zakat:__</ins>
-   - Zakat consists of spending 2.5% of one's wealth for the benefit of the poor or needy,
-including slaves, debtors and travelers. (as long as the total value is more than a basic minimum known as nisab.)
-
-- <ins>__5\. Hajj:__</ins>
-   - This act of worship which must be done once in a lifetime if you have the wealth and health to do so.
-
-   - When the pilgrim is around 10 km from Makkah, he must dress in Ihram clothing.
-
-   - The main rituals of the Hajj include walking seven times around the Kaaba, touching the Black Stone, traveling seven times between Mount Safa and Mount Marwaha, and symbolically stoning the Devil in Mina.
-
-- ### __Six Articles of Faith__
-
-   1. One God. (Allah)
-      - The central belief in Islam, and arguably the most important theme of Islam, is that there is one God.
-
-   2. Belief in Angels.
-      - Belief in angels is fundamental to the faith of Islam. According to the Quran, angels do not
-possess free will, and therefore worship and obey God in total obedience.
-   3. Prophets (AS)
-      - Muslims identify the Prophets (AS) of Islam as those humans chosen by Allah (SWT) to be
-Allah’s Messengers.
-   4. Revelations
-      - Muslims believe that God dictated His revelations to the various Prophets. Islam teaches
-that parts of the previously revealed scriptures.
-   5. Resurrection and Judgment: 
-      - Muslims believe in the "Day of Resurrection" and the Quran emphasizes the resurrection of
-the body
-   6. Qadr (Divine Decree)
-      - Muslims believe that Allah (SWT) has full knowledge and control over all that occurs.
-
-
-
-## <ins>20th Lec:</ins> Righteous Deeds (II)
-
-
-## <ins>21st Lec:</ins> 
-## <ins>22nd Lec:</ins> 
-## <ins>23rd Lec:</ins> 
-## <ins>24th Lec:</ins>
+## <ins>1: Politics of Safegaurd (I)</ins> —Making of Muslim League *(1858-1916)*
+
+- **Educational Movements for Muslims**
+  1. Aligarh Movement _(1858)_
+  2. Deoband Movement _(1866)_
+  3. Anjum Himayat-i-islam _(1884)_
+  4. The Nadva Movement _(1894)_
+
+  - Exposure to modern social and political ideas.
+  - Sense of seperate Nationhood.
+  - Conciousness of rights
+
+- **Partition of Bengal _(1905)_** 
+  - Was done due to administrative reasons.
+  - Hindus reacted against the muslim majority _East Bengal_ which was the better portion.
+  - Influenced Muslims to create their own political platform.
+
+- **Simla Deputation _(1906)_**
+  - A 35-Member Muslim deputation led by **Sir Agha Khan** met **Lord Minto**.
+  - Presented Muslim demands for new Constitution.
+  - Viceroy agreed to:
+    - Seperate electorate.
+    - Weightage for Muslims.
+  - All India Muslim League was born
+
+- ### **All India Mulslim League _(1906)_**
+  - **Factors:**
+    - Rise of Muslim Nationalism.
+    - Hindu attitude towards Muslims.
+    - Partition of Bengal.
+    - Need for permanent Muslim political platform.
+    - The impending Minto-Morley Reforms that ultimately came as India Act (1909).
+
+  - **Objectives:**
+    - Promote a sense of loyalty to the British Government among the Muslims.
+    - Look after the Political rights, and interests and to represent to  the government from time to time, their needs and aspirations.
+    - Cultivate better understanding between Muslims and other comunities.
+
+
+- **Lucknow Pact**
+  - In 1911 Jinnah attended annual meeting of AIML and was persuaded to join later on.
+  - Jinnah joined Muslim league in **1913** but retained his Congress Membership.
+  - The liberal wing of Muslim League became powerful lead by Jinnah.
+  - Congress and Muslim League came closer in the joint session and made an agreement known as **Lucknow Pact**.
+  - ### **Lucknow Pact: _(1916)_**
+    - The Congress accepted the Muslims demand for seperate Electorate.
+    - Weightage to the minorities in provinces.
+    - In Bengal and Punjab the Muslims agreed to have less seats.
+    - One third Muslim seats in the Center.
+    - No bill or resolution affecting a community was to be passed if 3/4th of the representatives of that community were opposed to it.
+  - ### **Percentages:**
+    ![Percentages](https://cdn.discordapp.com/attachments/1127172605921742870/1194131060754235392/image.png)
+
+
+
+## <ins>2: Politics of Safegaurd (II)</ins> —New Constitution Making process: *(1927-1929)*
+
+- **Simon Commsion _(1927)_**
+  - Came to India to investigate the working of Montague Chelmsford Reforms and reccomend further changes
+  - Bycotted by Jinnah League and Congress.
+  - Supported by Shaffi League.
+  - Mission Failed.
+
+- **Nehru Report _(1928)_**
+
+    - All Parties Conference convened by Congress appointed a comittee to reccomend constitutional arrangement for India.
+    - **Moti Lal Nehru** and **Jawahar Lal Nehru** Secretary.
+    - Muslim members: **Sir Ali Imam** and **Shoiab Qureshi**.
+
+    - The report **ignored** Muslim demands completely:
+      - seperate electorates should be abolished.
+      - no seats should be reserved for Muslims.
+      - no weightage should be allowed.
+      - India should have a unitary form of government.
+
+- **Muslim Reaction to Nehru Report:**
+    - Did not accept the report.
+    - All India Muslim Conference _(31 December 1928 to 1 January 1929)_ was convened under **Agha Khan** to consider the Nehru Report.
+    - The confrence's Demands:
+      - Federal form of government with complete autonomy and residuary power vested in the provinces.
+      - Seperate electorate and existing weightage to continue.
+      - Muslims should be given their "due share" in the central and provicial cabinets.
+      - due share to Muslims in public services and self-government bodies.
+      - Safegaurd for the protection of Muslim education, language, religon, personal law and Muslim charitable institutions.
+
+    - Jinnah proposed ammendments to the report but they were rejected aswell.
+    - Muslim League reunited for the broader interest of Muslim Community and in _March 1929_ it reiterated Muslim's demands in **Jinnah's** famous 14-points.
+
+
+
+## <ins>3: Pre 1940-47 development</ins> —Muslim Separatism & Congress Ministries: *(1930-1940)*
+
+- Dr. Iqbal proposed a New Muslim state within British India in his Allahabad address in _1930_.
+- Ch. Rehmat Ali distributed "Now or Never" proposing a state named Pakistan.           
+
+<img src="https://cdn.discordapp.com/attachments/1127172605921742870/1194134782884450365/image.png" alt="drawing" style="width:600px;"/>
+
+- ### **Election _(1937)_** 
+  - Two major parties Congress and All India Muslim League participated.
+  - Muslim League did not perform as well as expected.
+    - Scored only 102 out of 482 Muslim seats.
+  - Unionist party got majority in Punjab 
+    - **Sir Sikandar Hayat** formed his ministry comrising of 3 Muslims 2 Hindus and a Sikh minister.
+  - Sindh United party formed government in Sindh under leadership of **Sir Ghulam Hussain Hadatullah**
+  - In Bengal Maulvi-Fazl-ul-Haq formed a coalistion governement.
+  - Congress formed in all other right provinces.
+
+- Congress deprived Muslims of their basic rights abd due share in social sector which lead to emergence of sense of speratism among Muslims.
+
+- **Working of Ministries:**
+  - Three colored flag "Tringa".
+  - Undue intereference in Administration.
+  - Introduction of Hindi in place of Urdu in Devangari Script.
+  - Nehru campaign to crush the Muslim League.
+  - Widdia Mandar Scheme.
+    - Teaching of Hindu caste system mandatory.
+  - Prohibition of Cow slaughter.
+  - Prohibition to perform religious rights.
+  - Intrigues against muslim government.
+  - Hindu-Muslim Riots.
+
+- **Second World War** broke out in _(1939)_ and Vicroy suspended the fedral part of **India Act 1935** and announced about a new act to give liberty to India.
+
+- Congress reacted strongly and decided to quit the governement and resigned between ***October 27,1939 and November 15,1939.***
+
+- Muslim League observed "Day of Deliverance" on ***November 22, 1939*** as a mark of relief.
+
+
+
+## <ins>4: 1940-47 development</ins> —Pakistan Movement: *(1940-1947)*
+
+- ### Lahore Resolution (*March 1940*)
+  - Presented in Lahore by **A.K Fazal-i-Haq**.
+  - Adopted by all the participants.
+  - Specified a line of action for a seperate Muslim state.
+  - Muslim majority areas _(north-west/eastern)_ zones of India should be grouped to constitute "Independent Status".
+  - Widely Criticized by the Congress leadership.
+
+- ### August Offer (*August 1940*)
+  - In April 1940, France was occupied by the Nazis and England remained alone. 
+  - Situation became worse for Britian.
+  - A plan was offered by the Viceroy Linlithgow for set up of constitution making body and minorities rights protection after the war.
+  - Plan was named August Offer.
+  - Rejected by both parties.
+
+- ### Cripps Mission (*1942*)
+  - Lord Cripps came for negotiations with Leaders of various political parties. 
+    - British will run Indian Affairs until the end of War.
+    - Union of India will be given Dominion status after the war.
+    - British will be responsible for implementation of the Constitution.
+    - [Reference: Pg#21](https://ikddata.ilmkidunya.com/images/books/Chapter-1-Pak%20Studies%2011-Class-English-Federal-Board.pdf) .. etc 
+  - Mission failed.
+
+- ### Gandhi-Jinnah Talks (*1944*) 
+  - Various political issues were discussed.
+  - Gandhi proposed CR formula.
+  - Talks failed.
+
+- ### Simla Conference (*1945*)
+  - **Lord Wavel** arranged a conference in June-July 1965 to discuss various political issues.
+  - Representations of various communities in Executive Council was the major issue.
+  - Conference failed and widen the gulf between Muslim League and the Congress.
+  - **Wavel** visited London after Simla Conference.
+
+  - **Announced Wavel plan as:**
+    - Self Government with the cooperation of Indian leaders.
+    - Election in Winter of _1945_.
+    - Provincial govt. will be set up.
+    - A constituent Assembly will be set up.
+    - Executive Council will be setup.
+
+- ### Elections (*1945-46*)
+  - Muslim league's stance:
+    - Sole representatives of Muslims in India.
+    - Goal is Pakistan.
+
+  - Congress's Stance:
+    - Representatives of all Indians.
+    - Goal is Independance of India.
+
+  - Central legislature elections in ***December 1945***:
+    - Muslim League won all 30 Muslim seats.
+    - Congress won a total of 57 seats.
+
+  - Provincial elections in ***February 1946***:
+    - Muslim League won most of the seats.
+      - `76/86` in **Punjab**, four joined later on.
+      - `113/119` in **Bengal**.
+      - `28/35` in **Sindh**.
+      - `17/38` in **NWFP**.
+
+
+- ### Dehli Convention (*April 1946*)
+  - A convention of all elected members of All India Muslim League held in Dehli in ***April 1946***.
+  - Pakistan was demanded.
+  - Lahore resolution was amended for establishment of a seperate states, not state.
+
+- ### Cabinet Mission plan (*March 1946*) 
+  - Three members' commission.
+  - Offerend long term and short term plans.
+  - Congress rejected.
+  - Muslim league Accepted.
+  - [...Reference: Pg#22](https://ikddata.ilmkidunya.com/images/books/Chapter-1-Pak%20Studies%2011-Class-English-Federal-Board.pdf)
+  - **The Interim Government**
+    - Liaqat Ali khan as Finance Minister.
+
+- ### 3rd June plan (*1947*)
+  - Announcement of Dominion Status.
+  - Transfer of Power on ***14 & 15 August***.
+  - Boundary Commision.
+
+- ### The Constiuent Assembly
+  - First session on ***11th August***
+  - 1935 India Act as first Constitution.
+  - Muhammad Ali Jinnah entitled as "Quaid-e-Azam"
+  - Flag of Pakistan.
+
+- ### Establishment of Pakistan 
+  - Power transferred on 14 August by **Lord Mount Batten** in Karachi. 
+  - **Quaid-e-Azam** as first Governer General.
+  - **Liaqat Ali Khan** as first Prime minister.
+
+
+
+- ## <ins>5: Initial problems of Pakistan</ins> —Establishment of Pakistan: *(1947-1960—A)*
+
+- 57th Nation state of United Nations, Pakistan emerged on the World Map as a sovereign state on ***August 14, 1947***.
+
+- Two Parts:
+  - East Pakistan (56% of the population)
+  - West Pakistan (44% of the population)
+- Karachi was the first capital.
+
+- ### Initial Problems: 
+  - Mountbaton's policy of cut and run harmed Pakistan's interests. *(Hurried Partition)*
+
+  - From the beginning India adopted very hostile attitude and did everything not to let Pakistan settle. 
+
+  - **Formation of government and administrative machinery:**
+    - lack of trained Manpower.
+    - lack of records.
+    - lack of central government and secretariat.
+    - reorganization of administrative departments, civil, foriegn and armed services.
+
+  - **Influx of refugees:**
+    - Millions of homeless and destitute people crossed into Pakistan.
+    - 7.5 million refugees.
+    - Miserable conditions.
+    - Worlds largest ever migration.
+    - Womer were dishonored, kidnaped and raped.
+    - Large scale massacres.
+    - One million were killed.
+    - Camps were set up but no resources to rehabilitate the refugees.
+    - No clothes, food shelter or medicines.
+
+  - **Unjust demarcation of boundaries.**
+    - Malpractices by Boundary commission's chairman **Redcliff**
+    - Four Muslim Majority Tehsils were given to India.
+
+  - **Princely States Problem:**
+    - 562 Princely States
+    - Option was given to states to join either India or Pakistan.
+    - Four states remained undecided:
+      1. Hyderabad ***(India annexed in 1948)***
+      2. Manavadar ***(India annexed in 1948)***
+      3. Jonagarh ***(India annexed in 1948)***
+      4. Kashmir ***(1948 War)*** 
+
+  - **Kashmir problem:**
+    - India Invaded.
+    - 1948 War.
+    - UNSC intervention (Resolution 47)
+    - Establishment of Azad Jammu and Kashmir Government.
+
+  - **Division of armed forces and military assets**
+    - Pakistan never got its proper share in weapons
+    - One out of 16 ordinance factories.
+
+  - **Division of financial assets**
+    - 750 Million Rupess were alloted to Pakistan out of the total 4000 Million.
+    - Out of 750 Million and installment of Rs.200 Million was paid and the rest was stopped.
+    - Rs.500 Million was paid in **1951** the remained 50 Million was never paid.
+
+  - **Economic Problems**
+    - Practically no industries in Pakistan.
+    - Transportaion in poor shape.
+    - Development board was set up in 1948
+    - Agricultural Cooperation was set up.
+    - First budget 1948-49 was a Balance Budget.
+
+  - **Canal Water Dispute** 
+    - India Cut off canal water supply to Punjab.
+    - Indus Water treaty in 1960.
+    -  [...Reference: Pg#4](https://ikddata.ilmkidunya.com/images/books/Chapter-2-Pak%20Studies%2011-Class-English-Federal-Board.pdf)
+
+  - **Political Problems:**
+    - Location of the two wings.
+    - Monopoly of West Pakistan in government departments and armed forces.
+    - Language Controversy.
+    - Provicialism.
+    - Constitution making.
+
+
+- ## <ins>6: Constitional Development</ins>: *(1947-1956—B)*
+
+- The India Act of 1935, became the interim constitution of Pakistan with slight modifications.
+  - It was not sufficient to fulfill the requirements of an independent state.
+
+- A new Constituent Assembly was setup to form the constitution.
+
+- Constitution making process remained a complicated phenomenon in the History of Pakistan.
+- India made her constitution in ***1951*** but Pakistan could not until ***1956***.
+
+- ### **Challenges:**
+  - Ethnic, cultural, and religious diversity made the constitution making process even more complicated.
+  - The most sensitive and awesome situation was of deciding the role of religion in the constitution.
+  - Some preferred Pakistan to be a secular state.
+  - Religious lobby was emphasizing to convert Pakistan into a theocratic state.
+  - Some political leaders were in favor of a strong center while others wanted complete autonomy for the provinces.
+  - Palace intrigues and lust for power slowed down the constitution making process after the death of Quaid-i-Azam.
+
+- First major step was taken by Constituent assembly in ***12 March 1949***, when it passed the resolution known as **"<ins>Objective Resolution</ins>"**
+
+- ### **Salient Features of Objective Resolution:**
+  1. Allah is the Supreme Sovereign and sovereignty belongs to Him. It will lie with the people as a sacred trust of Allah.
+  2. The priciples of democracy, social justice, equality and freedom as enunciated by Islam will be comepletely adhered to.
+  3. Exercise of fundamental rights shall be fully guaranteed.
+  4. Minorities rights to freely profess, practice their religion, and develop their culture will be fully protected.
+  5. Independence of Judiciary and Federal form of governement.
+
+- ### **Criticism:**
+  - It mixed up politics with religion.
+  - It reduced the minorities to the status of slaves and servants.
+  - It allowed the state to interfere in the personal affairs of the people.
+
+- ### **Significance:**
+  - First concrete effort to make the constitution.
+  - Fundamental rights were guaranteed.
+  - Rights of minorities were protected.
+  - Suggested a federal form of government.
+  - Guaranteed the independence of judiciary.
+  - Laid down the fundamental principles of the future constitution.
+
+- ### **Further developments:**
+  - Basic Principle Committee(BPC) was appointed on ***12 March, 1949***.
+  - BPC published its first 
+  - **Liaqat Ali Khan** was assassinated in *Rawalpindi* on ***16 October 1951*** and **Khawaja Nazim-ud-Din** stepped in.
+  - **Nazim-ud-Din** presented the second draft of constitution in the assembly in ***December 1952***.
+    - It was rejected.
+    - **Nazim-ud-Din** was removed in ***April 1953*** and **Muhammad Ali Bogra** stepped in.
+  - **Bogra** presented a formula known as "Muhammad Ali formula" in ***October 1953*** 
+  - Assembly drafted a constitution by ***September 1954*** and date of its promulgation was announced but assembly was dissolved on ***October 24, 1954*** in an undemocratic way.
+  - Second Constituent Assembly as setup in ***1955***, Elected from existing Provicial Assemblies.
+  - Prime Minister **Chaudhry Muhammad Ali** presented a draft od constitution before the assembly on ***8th January 1956*** which was approved on ***29th Feburary, 1956***
+  - <ins>On ***23 March 1956***, Constitution was Promulgated, and Pakistan was Declared a Republic.</ins>
+
+- ## 1956 Constitution:
+  - Consisted of 234 articles, arranged in 13 parts, short preamble in the beginning and six schedules attached at the end, covered total of 94 pages.
+
+  - **The Preamble:**
+    - Objectives resolution.
+
+  - **The Islamic provisions:**
+    - Pakistan was defined as an Islamic Republic.
+    - Islamic provisions will be followed byt the state authorities while formulating state policies.
+    - Steps were to be taken to enable Muslims of Pakistan to order their lives in accordance with Quran and Sunnah.
+    - The president was to be a Muslim.
+    - No law shall be enacted that contradicts Islamic teachings.
+    - Islamic Advisory council was to be set up.
+    - Nothing should affect the personal laws of Non-Muslims or their status as citizens.
+
+  - **The President:**
+    - Chief excecutive and HEad of State.
+    - Not less than 40 years in age.
+    - To be elected by the members of National Assembly and provicial assembly for 5 years.
+    - Could be eligible for election.
+    - Could not continue more than two consecutive terms.
+    - Could be impeached by 3/4th members of legislature.
+    - Emergency powers
+    - Financial powers
+    - Could summon, prorogue and disolve the assembly.
+    - Power to release ordinances. 
+    - Power to appoint the Prime Minister. Provincial Governors and Judges with consent of Chief Justice, Auditor General and Advocate General.
+    - Power to pardon, commute of sentences.
+    - Ministers, Deputies appointed by President.
+    - Official acts could not be challenged. 
+    - Speaker will be acting President in case of incapacitation or absence.
+    - In absence of Prime Minister, powers transferred to President.
+    - Limited power to veto.
+
+  - **The Legislature:**
+    - Uni-Cameral Legislature known as National Assembly
+    - 150 Seats each from East and West Pakistan.
+    - 10 women seats, 5 each from both sides. 
+    - 21 years voter age.
+    - 25 years Candidate age.
+    - Member could loose his seat in case of consecutive 60 days absence.
+    - At least two sessions of National Assembly in a year
+    - At least one session to take place in Dhaka.
+    - The assembly to choose Speaker and Deputy Speaker from its own members in its first session.
+    - Life of Assembly is **5 years** but could be dissolved by the President earlier. 
+    - Elections were to take place within **6 months**, no by-elections could be delayed beyond **3 months.**
+
+  - **The Prime Minister and Cabinet:**
+    - Leader of House and Head of Cabinet.
+    - Must enjoy the confidence of Legislature.
+    - Could be removed by the President.
+    - Real executive authority vested in the Cabinet.
+    - Collectively answerable to the National Assembly. 
+  
+  - **Federal Structure:**
+    - Comprised of two Provinces, East and West Pakistan.
+    - Principle of parity to two Provinces. 
+    - **Three Lists:**
+       1. Federal. `30`—_(Currency, Citizenship, Mineral Oil, Foreign Affairs, etc.)_
+       2. Provicial. `94`—_(Administration of Justice, Police, Factories, Public Health, etc.)_
+       3. Concurrent. `19`—_(Comprised of certain matters, which could not be given either to centre or to Provinces)_
+    - Residuary powers were given to Provinces.
+    - Federal had priority over Provinces list.
+    - Provinces could not tax to federal property.
+    - Taxes and financial powers to both.
+    - Parliament was supreme decision power in case of any conflict.
+    - Chief Justice could also play a role to settle the matters.
+
+  - **The Judiciary:**
+    - Independence of Judiciary was guaranteed.
+    - Supreme Court:-Headed by Chief Justice with 6 judges.
+    - Had original as well as appellate jurisdiction.
+    - Had powers to adjudicate in any dispute between Centre and Provinces or vice versa.
+    - **High Court:**
+      - Each Province had a High Court.
+      - Consisted of Chief Justice and 12 other Judges.
+      - Appointed by the President of Pakistan in consultation with the Chief Justice.
+    - Civil Servants could be appointed as Judges. 
+
+  - **Fundamental Rights:**
+    - Part II laid down the fundamental rights guaranteed to the citizens of Pakistan.
+    - Rights of freedom of assembly and freedom of association were provided.
+    - Every citizen could move through out the country, and could reside, settle, hold and dispose of property in any part of it.
+    - Slavery and forced labor were prohibited.
+    - Religious liberties were guaranteed. 
+    - All these rights were enforceable by Supreme Court and therefore Court was given powers to issue directions, orders or writs of all kinds for the enforcement of any of these rights.
+
+- ### Constitution was abrogated on _October 7, 1958_ when the Martial law was proclaimed by General Ayub Khan. 
+- - -   
+
+
+## <ins>7: Ayub Khan Government</ins>: *(1958-1969)*
+
+- From 1947 to 1958, Pakistan was governed by four heads of state and seven prime ministers.
+- A decade of political turmoil .
+- ***October 7, 1958*** Sikander Mirza suspended the constitution and declared martial law in the country
+- General Ayub Khan, Commander-in-Cheif was appointed the Cheif Martial Law administrator.
+- Central and Provicial assemblies were dissolved, all political activities were banned.
+- Ayub Khan turned the tables on General Mirza forcing him into a pensioned exile in London.
+  - - -  
+
+- Political Leadership was arrested 
+- Ban on newspapers
+- Promised to carry out reforms in the entire government structure.
+- Public servants were tried for misconduct by tribunals.
+
+- A political move to weaken big landowners. 
+  - Land reforms commission set up in 1958.
+  - Four million hectares land was taken from landlords and sold to civil and military officers.
+  - A new class of farmers loyal to Ayub Khan emerged.
+  - Peasants got nothing.
+
+- Family Laws Ordinance in **1961**-- restricted polygamy and regulated marriage/divorce, giving women more equal treatment.
+  - Opposed by the ulema and religious lobby 
+  ---
+
+- ### Green Revolution:
+  - Strict measures against hoarding.
+  - Rural credit programs and work programs.
+  - Higher procurement prices.
+  - More budget allocation for agriculture.
+  - Improved seeds and pesticides.
+  - Self-sufficiency in food grains.
+
+- ### Industrial Development:
+  - The Export Bonus Vouchers Scheme (1959) for import of machinery.
+  - Tax incentives for industry.
+  - Dedicated Industrial Zones.
+  - Tax concessions for investment in less-developed areas.
+  - The world highest industrial growth rate—9.8 percent.
+
+- ### Economic Growth:
+  - Agriculture sector improved.
+  - Industrial growth—highest in the world.
+  - GDP growth rate—more than six percent.
+  - Expansion of urban professional class.
+  - Increased employment rate.
+
+- ### 1962 Constitution:
+  - Presidential form of government.
+  - President has all the executive powers.
+  - Cabinet appointed by the President.
+  - The President elected by the 80000 basic democrats.
+  - The system of basic democracies introduced.
+
+- ### System of Basic Democracies:
+  - A new local government system was introduced.
+  - Directly elected 80000 basic democrats.
+  - 40000—East Pakistan, 40000—West Pakistan.
+  - Basic Democrats to choose the President of Pakistan.
+
+- ### <ins>Criticism:</ins>
+  - Primary motive was to sustain and prolong the rule.
+  - The regime sowed the seed, and generously watered the plant, for Bangladesh's separation.
+  - The rapid enconomic growth- cited as the single achievement- promoted inequalities resulting in 20 families rising to the top, who now controlled the nation's resources.
+    - 22 families got 80 percent of the wealth.
+
+  - The growth was primarily driven by foreign aid.
+    - By December 1961, foreign aid was more than twice the size of foreign loans.
+    - in 1964, foreign aid was responsible for 40% of the total investment.
+    - Foreign aid covered 66% of the cost of imports.
+  ---
+  - Ayub's years of preferred treatment of West Pakistan irked East Pakistanis.
+  - Capital was shifted to Islamabad, a further two days away from Karachi.
+  - Two large hydel projects (Mangla and Tarbela) in West Pakistan.
+  - All the King’s men belonged to West Pakistan.
+  - More industrialization in West 
+  - West Pakistanis got incentives for investment in East.
+  ---
+  - Political Leadership was arrested.
+  - News papers were banned.
+  - No freedom of expression.
+  - Poets were imprisoned.
+  - Judiciary was imprisoned.
+  - Introduced turn-coats in political parties.
+
+- ### March 1969—General Yahya Khan took control as the Chief Martial Law Administrator.
+---
+
+
+## <ins>8: East Pakistan Crisis</ins>: —Dismemberment *(1969-1971)*
+
+- Yahya Khan came in power in ***March 1969***.
+- Climate of political uncertainty.
+- Constitustion suspended (PCO issued).
+- Political parties were not banned. 
+- One Unit was Dissolved.
+- LFO came on ***30th March, 1970***
+
+- ### Elections _(1970)_
+  - Elections were announced, (***5th October*** National Assembly, ***20th October***, Provincial Assemblies)
+  - One man, one vote basis (First time in Pakistan)
+  - Complete freedom and opportunities of election campaign to all political parties.
+  - No reports of irregularities.
+  - First free and fair election.
+
+- ### Election Results:
+
+  - **East Pakistan:**
+    - 870 candidate for 162 General Seats.
+    - Awami League fielded 162 candidate for all seats.
+    - PPP fielded no candidate.
+    - Awami League got 160/162 seats.
+    - **Nurul Amin** and **Raja Tridevrai** got two other seats, joined Awami League later.
+    - Awami League got 75% votes from East Pakistan
+    - No Vote for PPP.
+
+  - **West Pakistan:**
+    - 1070 candidates for 138 general seats.
+    - Peoples Party bagged 81/138 seats in West Pakistan.
+    - Awami League got no seat in the West.
+
+- ### Post Election Crisis:
+  - Crisis on issue of making of Government.
+  - Mujeeb presented 6 points agenda.
+  - Bhutto wanted his share in government in spite of lack of majority.
+  - Yahya favored Bhutto. 
+  - Riots started in East Pakistan in March
+
+- ### Larkana Pact:
+  - A secret pact between **Yahya** and **Bhutto**.
+  - “`Yahya the soldier and Bhutto the politician will make a very good team and can together run the country`”
+  - Bhutto replied Yahya about East Pakistan, `“East Pakistan is no problem. We will have to kill some 20,000 people there and all will be well”` (Khan, 1983). 
+
+- ### Militay Operation in East Pakistan:
+  - Military action started on March 25,1971.
+  - Large scale violence. 
+  - India supported “Mukti Bahni”.
+  - **Civil war started.**
+  - Bengalis welcomed the Indian Army
+  - Indian Army outnumbered Pakistani forces with 1:15
+  - Supplies disrupted from West Pakistan.
+  - Pakistan Army surrendered on December 16,1971.
+
+- ### The Surrender: 
+  - About 93,000 Troops were made Prisoners of War(POW’s).
+  - The most humiliating defeat in the history of Islam.
+  - East Pakistan emerged on the World map as a new state named `“Bangladesh”`.
+
+- ### Causes of debacle of East Pakistan:
+  - Language Controversy.
+  - Economic Diversity.
+  - Sense of Deprivation.
+  - Cultural differences.
+  - The Geographical Factor.
+  - Political factors.
+  - Leadership Vacuum.
+  - Defense problems.
+  - Administrative factors.
+  - Influence of Hindus.
+  - Role of Military.
+  - Provincial prejudices.
+
+
+
+## <ins>10: Constitution Of _1973_</ins>:
+- Promulgated on ***14 August, 1973***
+- Prefaced a preamble and consist of 280 articles, arranged in 12 parts, and six schedules.
+- **Rigid Constitution.**
+  - Only amended by 2/3 majority of Parliamentarians.
+- **Permanent Constitution**
+  - Obedience of Constitution is the basic obligation of every citizen of Pakistan.
+  - Abrogation or attempts or conspires to abrogate, subvert or attempts or conspires to subvert the constitution by use of force or show of force or by any other unconstitutional means shall be guilty of high treason.
+-  Provisions of Fundamental rights
+- Guarantees Fundamental rights
+- Federal Structure of State. 
+- Parliamentary form of Government.
+- Bicameral Legislature.
+- Independent Judiciary.
+- ### Islamic Provisions:
+  - Constitution begins with the definition of Islam.
+  - Pakistan is a federal Republic, to be known as Islamic Republic of Pakistan.
+  - Islam shall be the State Religion of Pakistan.
+  - Makes the definition of a Muslim.
+  - The President and the Prime Minister shall be Muslims.
+- Includes Objective resolution. 
+- The Council of Islamic Ideology shall be set up.
+- Friday as holiday.
+- Prohibition of Alcohol and Gambling.
+- Islamiyat and Pakistan Studies as Compulsory Subjects upto graduation level.
+- Federal Shariat Court through 8th amendment.
+- Zakat and Ushar.
+- Hadood Ordinance. 
+- Salat Committees.
+- ### The President:
+  - Head of State.
+  - Should be a Muslim.
+  - Not less than 45 years of age.
+  - To be elected by Parliament and Provincial assemblies for a term of 5 years.
+  - Could be removed only by the Parliament by impeachment for gross misconduct,physical or mental disability and for violation of the Constitution.
+  - Can address and Dissolve the assembly on advice of Prime Minister. 
+  - Can summon the session of Parliament.
+  - Power to appoint the Governors, Attorney General, Chief Election Commissioner, Auditor General, Chief Justice, Chiefs of Staff of Army, Air Force, Navy.
+  - Head of Armed Forces.
+  - Emergency Powers. 
+  - Can assume executive powers of the Provinces.
+  - Power to pardon, commute of sentences.
+  - Chairman of Senate will be acting President in case of incapacitation or absence. 
+- ### Legislature:
+  - Bi-Cameral Legislature
+  - National Assembly and Senate
+  - 342 Total seats of National Assembly. 
+  - 18 years voter age. 
+  - 25 years Candidate age. 
+  - At least three sessions of National Assembly in a year. 
+  - The assembly to choose Speaker and Deputy Speaker from its own members in its first session.
+  - Life of Assembly is 5 years but could be dissolved by the President on advice of Prime Minister earlier.
+  - Senate consisted of total of 104 members on basis of proportional representation from Provinces.
+    - (14-general + 4-technocrats + 4-women + 1-non-Muslim=23 from each Province), 8-FATA, 4-capital territory. 
+- ### Prime Minister and Cabinet:
+  - Leader of House and Head of the Government.
+  - ...
