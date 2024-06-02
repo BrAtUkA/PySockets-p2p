@@ -1,4 +1,79 @@
-# Detailed Notes on Lectures 11-31
+# Detailed Notes on Lectures 10-31
+
+## Lecture 10: Objectives/Traits in Technical Writing
+
+### 10.1 Objectives/Traits in Technical Writing
+- **Why are you writing?**
+  - Information needed
+  - Persuasion required
+  - Audience’s needs and wants
+
+#### 10.1.1 Understanding Audience
+- **Level of Education**
+  - Tailor content and style according to the audience's educational background.
+- **Level of Knowledge**
+  - Build on the audience's existing knowledge, avoid redundancy, and provide new information.
+- **Relationship with Audience**
+  - Adjust content, tone, and language based on your relationship (e.g., boss, students, colleagues).
+
+  **Exercise**: Write a report for technicians on the harmful effects of radiation, providing detailed information and recommendations.
+
+- **Empathy for the Audience (Guffey and Du-Babcock, 2008)**
+  - Adopt a positive tone
+  - Cultivate a "You-Attitude"
+  - Use conversational language and familiar vocabulary
+
+#### 10.1.2 Enhancing Comprehension for the Audience
+- **Key Points**
+  - Clarity
+  - Conciseness
+  - Accessible document design
+  - Audience recognition
+  - Accuracy (grammar)
+
+##### 10.1.2.1 Clarity
+- **Guidelines (Murphy, Hildebrandt, & Thomas, 2008)**
+  - Use precise, concrete, and familiar vocabulary
+  - Create effective sentences and paragraphs
+
+- **Achieving Clarity**
+  - Avoid ambiguity
+  - Prefer active voice
+  - Exclude personal introduction and conclusion
+  - Use transition words
+
+  **Examples**:
+  - Unclear: "Students should be confident and have a clear understanding of the subject, and these qualities are the prerequisites that we need."
+  - Clear: "Prerequisites in students include a clear understanding of the subject and confidence."
+
+##### 10.1.2.2 Conciseness
+- **Guidelines for Conciseness**
+  - Write positively
+  - Paragraph often
+  - Use reasonable sentence length
+
+  **Examples**:
+  - Wordy: "You did not attend the class yesterday."
+  - Concise: "You missed the class yesterday."
+
+- **Avoid Redundant Expressions and Prepositional Phrases**
+  - Redundant: "We are working together in collaboration."
+  - Concise: "We are working together."
+
+- **Delete Meaningless Words**
+  - Examples: Basically, generally, kind of, actually
+
+- **Delete Doubled Words**
+  - Wordy: "Each and every one of my classmates attended the party."
+  - Concise: "Each of my classmates attended the party."
+
+- **Delete Redundant Categories**
+  - Examples: "Round in shape," "large in size," "blue in color"
+
+- **Reduce Phrases to Words**
+  - Phrase: "For this reason"
+  - Word: "So"
+
 
 ## Lecture 11: Objectives/Traits in Technical Writing
 
