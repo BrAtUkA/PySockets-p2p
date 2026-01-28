@@ -2,7 +2,7 @@
 A simple Python Sockets p2p network system made without any extra Libraries.
 tested and built on python-3.8.9.
 This Network works with hosts serving on different Public IP's. These IP's are sent to be held in a central Server. Clients can simply choose a host from the list and access their services.
-![alt text](https://cdn.discordapp.com/attachments/900002221188583474/912701190834376714/API.png)
+![UI Showcase](https://raw.githubusercontent.com/BrAtUkA/PySockets-p2p/refs/heads/main/ui.png)
 
 ## Requirements:
  - Python-3.8=< (Recommended)
